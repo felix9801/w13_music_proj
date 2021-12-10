@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(f806e48e-ad41-418c-84e0-8264f7724526), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3ae2702a, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\felix\ScalaProjects\w13_music_proj\target\scala-3.0.1\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\Pitch.scala:25:60 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m25 |[0m  [33mdef[0m [36mfromString[0m([36ms[0m: [35mString[0m): [35mOption[Pitch][0m = scala.util.Try {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                             [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                               [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                               It would fail on pattern case: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m26 |[0m    [33mval[0m (pitchClassName, octaveName) = s.partition([36mc[0m => !c.isDigit)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m27 |[0m    [33mval[0m [36moctave[0m = [33mif[0m octaveName.nonEmpty [33mthen[0m octaveName.toInt [33melse[0m [31m5[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m28 |[0m    Pitch(pitchClassIndex(pitchClassName) + octave  * [31m12[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m29 |[0m  } [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 07-Dec-2021 21:43:57[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

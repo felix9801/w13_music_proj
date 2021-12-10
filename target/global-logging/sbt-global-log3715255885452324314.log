@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(631255c2-662a-4453-9ad7-eb64ad5f498c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3739f3c9, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\felix\ScalaProjects\w13_music_proj\target\scala-3.0.1\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 07-Dec-2021 17:33:08[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-d97c73be0256b9491211. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-d97c73be0256b9491211_lock, error 5[0m

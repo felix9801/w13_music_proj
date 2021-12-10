@@ -1,0 +1,4 @@
+[debug] [w13_music_proj-test] Classpath dependencies List()
+[debug] [w13_music_proj-test] Dependencies from configurations List(w13_music_proj)
+[debug] Bloop wrote the configuration of project 'w13_music_proj-test' to 'C:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj-test.json'
+[success] Generated .bloop\w13_music_proj-test.json
