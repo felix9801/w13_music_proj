@@ -1,6 +1,22 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:42 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m[33mobject[0m [35mDefinedFunction[0m [33mextends[0m [35mCommand[0m(Def(), [31m""[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                       [31m^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter args of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mDef[0m: (args: Seq[String]): String[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:7:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m[33mclass[0m [35mDefined[0m [33mextends[0m [35mCommand[0m([31ms"[0m${Def.name}[31m"[0m, [31ms"Execute the function [0m${Def.name}[31m"[0m){[0m
+[0m[[0m[31merror[0m] [0m[0m  |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |class Defined needs to be abstract, since def apply(args: Seq[String]): String in [33mclass[0m [35mCommand[0m in [33mpackage[0m [35mmusic[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:38:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m[33mobject[0m [35mHelp[0m [33mextends[0m [35mCommand[0m([31m"?"[0m, [31m"print help"[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |object creation impossible, since def apply(): String in [33mclass[0m [35mCommand[0m in [33mpackage[0m [35mmusic[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:44:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m[33mobject[0m [35mQuit[0m [33mextends[0m [35mCommand[0m([31m":q"[0m, [31m"quit this app"[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |object creation impossible, since def apply(): String in [33mclass[0m [35mCommand[0m in [33mpackage[0m [35mmusic[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:49:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m[33mobject[0m [35mDef[0m [33mextends[0m [35mCommand[0m([31m"def"[0m, [31m"Define function"[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |object creation impossible, since def apply(): String in [33mclass[0m [35mCommand[0m in [33mpackage[0m [35mmusic[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:62:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m[33mobject[0m [35mPlay[0m [33mextends[0m [35mCommand[0m([31m"!"[0m, [31m"play chord"[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |object creation impossible, since def apply(): String in [33mclass[0m [35mCommand[0m in [33mpackage[0m [35mmusic[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

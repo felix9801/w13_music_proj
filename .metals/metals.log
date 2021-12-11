@@ -9559,3 +9559,1165 @@ Maybe you are missing an else part for the conditional?
 Shut down connection with build server.[0m
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.12.10 14:04:15 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\felix\ScalaProjects\w13_music_proj' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.10 14:04:16 INFO  time: initialize in 1.04s[0m
+[0m2021.12.10 14:04:19 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.10 14:04:19 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22110'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Dec 10, 2021 2:04:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.12.10 14:04:29 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj.json'
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.7.0\protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.42.12\flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.42.12\flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.42.12\flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.42.12\flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.42.12\flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.42.12\flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.42.12\flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.42.12\flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.42.12\flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.42.12\flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.42.12\flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-formatter\0.42.12\flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-html-parser\0.42.12\flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.42.12\flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.42.12\flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.42.12\flexmark-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.6.7\liqp-0.6.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\ST4\4.0.7\ST4-4.0.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr-runtime\3.5.1\antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr\3.5.1\antlr-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.1.0-scala-1\scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.0.1\scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.0.1\scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.0.1\scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.0.1\scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.0.1\scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.0.1\tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'w13_music_proj-test'
+[0m[32m[D][0m Loading previous analysis for 'w13_music_proj' from 'C:\Users\felix\ScalaProjects\w13_music_proj\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22110...
+The server is listening for incoming connections at tcp://127.0.0.1:22110...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.10 14:04:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.10 14:04:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21349'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21349...
+The server is listening for incoming connections at tcp://127.0.0.1:21349...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.10 14:04:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.10 14:04:32 INFO  time: Connected to build server in 13s[0m
+[0m2021.12.10 14:04:32 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.10 14:04:33 INFO  time: Imported build in 0.58s[0m
+[0m2021.12.10 14:04:34 INFO  time: code lens generation in 14s[0m
+[0m2021.12.10 14:04:37 INFO  time: indexed workspace in 4.13s[0m
+[0m2021.12.10 14:04:38 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.12.10 14:04:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 14:04:44 INFO  time: compiled w13_music_proj in 4.82s[0m
+[0m2021.12.10 14:04:47 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 14:04:48 INFO  time: compiled w13_music_proj in 1.01s[0m
+[0m2021.12.10 17:03:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:03:03 INFO  time: compiled w13_music_proj in 0.51s[0m
+[0m2021.12.10 17:04:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:14 INFO  time: compiled w13_music_proj in 0.59s[0m
+[0m2021.12.10 17:04:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:28 INFO  time: compiled w13_music_proj in 0.45s[0m
+[0m2021.12.10 17:04:31 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:32 INFO  time: compiled w13_music_proj in 1.69s[0m
+[0m2021.12.10 17:04:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:36 INFO  time: compiled w13_music_proj in 0.79s[0m
+[0m2021.12.10 17:04:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:46 INFO  time: compiled w13_music_proj in 0.61s[0m
+[0m2021.12.10 17:04:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:50 INFO  time: compiled w13_music_proj in 0.62s[0m
+[0m2021.12.10 17:04:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:53 INFO  time: compiled w13_music_proj in 0.6s[0m
+[0m2021.12.10 17:04:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:04:59 INFO  time: compiled w13_music_proj in 0.96s[0m
+[0m2021.12.10 17:05:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:05:02 INFO  time: compiled w13_music_proj in 0.5s[0m
+[0m2021.12.10 17:05:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:05:06 INFO  time: compiled w13_music_proj in 0.5s[0m
+[0m2021.12.10 17:05:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.10 17:05:09 INFO  time: compiled w13_music_proj in 0.42s[0m
+[0m2021.12.11 01:31:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:31:58 INFO  time: compiled w13_music_proj in 2.37s[0m
+[0m2021.12.11 01:32:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:01 INFO  time: compiled w13_music_proj in 1.41s[0m
+[0m2021.12.11 01:32:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:03 INFO  time: compiled w13_music_proj in 0.64s[0m
+[0m2021.12.11 01:32:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:06 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 01:32:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:08 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 01:32:10 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:36: stale bloop error: missing argument for parameter args of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command(s"") 
+                                   ^^^^^^^^^^^^[0m
+[0m2021.12.11 01:32:10 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:36: stale bloop error: missing argument for parameter args of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command(s"") 
+                                   ^^^^^^^^^^^^[0m
+[0m2021.12.11 01:32:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:11 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 01:32:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:14 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 01:32:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:15 INFO  time: compiled w13_music_proj in 0.7s[0m
+[0m2021.12.11 01:32:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:17 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.11 01:32:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:32:52 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 01:33:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:33:51 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 01:33:54 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:33:54 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 01:33:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:33:56 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 01:34:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:34:02 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 01:35:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:22 INFO  time: compiled w13_music_proj in 47ms[0m
+[0m2021.12.11 01:35:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:27 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:35:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:33 INFO  time: compiled w13_music_proj in 65ms[0m
+[0m2021.12.11 01:35:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:42 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 01:35:44 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:44 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 01:35:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:49 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 01:35:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:35:51 INFO  time: compiled w13_music_proj in 59ms[0m
+[0m2021.12.11 01:36:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:36:06 INFO  time: compiled w13_music_proj in 70ms[0m
+[0m2021.12.11 01:36:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:36:09 INFO  time: compiled w13_music_proj in 43ms[0m
+[0m2021.12.11 01:36:44 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:36:44 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:36:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:36:55 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 01:36:58 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:36:58 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:36:58 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:36:58 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:36:58 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:36:59 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:37:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:40: stale bloop error: unclosed string literal
+class Defined extends Command(s"${]", ""){
+                                       ^[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:8:3: stale bloop error: unclosed string literal
+}
+  ^[0m
+[0m2021.12.11 01:37:00 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:7: stale bloop error: missing argument for parameter str of constructor Command in class Command: (str: String, help: String): music.Command
+class Defined extends Command(s"${]", ""){
+      ^[0m
+[0m2021.12.11 01:37:00 INFO  time: compiled w13_music_proj in 70ms[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:40: stale bloop error: unclosed string literal
+class Defined extends Command(s"${]", ""){
+                                       ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:8:3: stale bloop error: unclosed string literal
+}
+  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:7: stale bloop error: missing argument for parameter str of constructor Command in class Command: (str: String, help: String): music.Command
+class Defined extends Command(s"${]", ""){
+      ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:40: stale bloop error: unclosed string literal
+class Defined extends Command(s"${]", ""){
+                                       ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:8:3: stale bloop error: unclosed string literal
+}
+  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:7: stale bloop error: missing argument for parameter str of constructor Command in class Command: (str: String, help: String): music.Command
+class Defined extends Command(s"${]", ""){
+      ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:40: stale bloop error: unclosed string literal
+class Defined extends Command(s"${]", ""){
+                                       ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:8:3: stale bloop error: unclosed string literal
+}
+  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:7: stale bloop error: missing argument for parameter str of constructor Command in class Command: (str: String, help: String): music.Command
+class Defined extends Command(s"${]", ""){
+      ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: Illegal start of statement
+class Defined extends Command(s"${]", ""){
+                                  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:40: stale bloop error: unclosed string literal
+class Defined extends Command(s"${]", ""){
+                                       ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:8:3: stale bloop error: unclosed string literal
+}
+  ^[0m
+[0m2021.12.11 01:37:01 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:7: stale bloop error: missing argument for parameter str of constructor Command in class Command: (str: String, help: String): music.Command
+class Defined extends Command(s"${]", ""){
+      ^[0m
+[0m2021.12.11 01:37:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:02 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 01:37:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:05 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 01:37:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:12 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 01:37:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:14 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 01:37:44 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:44 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 01:37:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:48 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 01:37:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:53 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 01:37:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:37:56 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 01:38:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:38:03 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 01:38:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:38:05 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 01:38:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:38:38 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 01:39:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:39:42 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 01:39:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:39:46 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:39:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:39:48 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:39:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:39:51 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:40:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:07 INFO  time: compiled w13_music_proj in 83ms[0m
+[0m2021.12.11 01:40:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:10 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:40:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:16 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:40:32 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:32 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:40:34 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:34 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:36 INFO  time: compiled w13_music_proj in 97ms[0m
+[0m2021.12.11 01:40:38 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:50: stale bloop error: Not found: func
+class Defined extends Command(s"${Def.name}", s"$func"){
+                                                 ^^^^[0m
+[0m2021.12.11 01:40:38 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:38 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:50: stale bloop error: Not found: func
+class Defined extends Command(s"${Def.name}", s"$func"){
+                                                 ^^^^[0m
+[0m2021.12.11 01:40:38 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:50: stale bloop error: Not found: func
+class Defined extends Command(s"${Def.name}", s"$func"){
+                                                 ^^^^[0m
+[0m2021.12.11 01:40:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:39 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"){
+                                               ^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:47: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", "){
+                                              ^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:47: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", "){
+                                              ^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", "){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:41 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:47: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", "){
+                                              ^[0m
+[0m2021.12.11 01:40:41 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", "){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:42 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:47: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", "){
+                                              ^[0m
+[0m2021.12.11 01:40:42 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", "){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:43 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:47: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", "){
+                                              ^[0m
+[0m2021.12.11 01:40:43 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", "){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:44 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:44 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:40:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:46 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:40:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:48 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:40:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:52 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:40:53 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:53 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:54 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:36: stale bloop error: missing argument for parameter cmd of method apply in object Command: (cmd: String, args: Seq[String]): String
+      Command.all = Command.all :+ Command() 
+                                   ^^^^^^^^^[0m
+[0m2021.12.11 01:40:54 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:54 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:54 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:54 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:54 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 01:40:55 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:55 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:55 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:55 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                               ^[0m
+[0m2021.12.11 01:40:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:35: stale bloop error: value name is not a member of object music.Def - did you mean Def.wait?
+class Defined extends Command(s"${Def.name}", s"Execute $"){
+                                  ^^^^^^^^[0m
+[0m2021.12.11 01:40:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:56 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:40:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:40:59 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:41:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:02 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:41:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:05 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:41:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:10 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:41:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:14 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:41:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:16 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 01:41:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:18 INFO  time: compiled w13_music_proj in 96ms[0m
+[0m2021.12.11 01:41:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:20 INFO  time: compiled w13_music_proj in 98ms[0m
+[0m2021.12.11 01:41:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:50 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 01:41:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:41:52 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 01:42:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:42:12 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 01:42:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:42:15 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 01:44:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:07 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:44:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:16 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:44:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:18 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 01:44:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:21 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:44:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:26 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 01:44:31 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:44:31 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:45:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:45:09 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:45:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:45:11 INFO  time: compiled w13_music_proj in 99ms[0m
+[0m2021.12.11 01:45:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:45:18 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:45:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:45:24 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 01:45:57 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:45:57 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 01:46:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:46:14 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 01:46:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:46:17 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 01:46:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:46:24 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 01:46:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:46:26 INFO  time: compiled w13_music_proj in 95ms[0m
+[0m2021.12.11 01:46:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:46:30 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 01:48:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:48:39 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 01:49:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:49:26 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 01:49:35 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:49:35 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 01:49:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:49:38 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 01:49:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:49:40 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 01:49:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:49:49 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 01:50:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:50:01 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 01:50:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:50:04 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 01:50:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 01:50:06 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 02:02:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:02:12 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 02:10:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:10:03 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:10:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:10:13 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:11:29 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:11:29 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 02:11:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:11:33 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 02:11:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:11:36 INFO  time: compiled w13_music_proj in 92ms[0m
+[0m2021.12.11 02:11:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:11:42 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:11:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:11:56 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:12:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:41 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:12:43 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:43 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:12:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:46 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:12:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:33:64: stale bloop error: an identifier expected, but string interpolator found
+        case cmd +: args => Command.all.map(s => println(s"${s.str")); println(s"$cmd $args"); Command(cmd, args)
+                                                               ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:33:64: stale bloop error: an identifier expected, but string interpolator found
+        case cmd +: args => Command.all.map(s => println(s"${s.str")); println(s"$cmd $args"); Command(cmd, args)
+                                                               ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:33:92: stale bloop error: unclosed string literal
+        case cmd +: args => Command.all.map(s => println(s"${s.str")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                           ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:39:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Help extends Command("?", "print help"):
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:42:5: stale bloop error: '}' expected, but 'case' found
+    case Seq(cmd) => Command.find(cmd).map(_.help).getOrElse(s"Unknown: $cmd")
+    ^^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:45:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Quit extends Command(":q", "quit this app"):
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Def extends Command("def", "Define function"):
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:51:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  var name = ""
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:51:3: stale bloop error: indented definitions expected, var found
+  var name = ""
+  ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  var func = Seq("")
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:53:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:54:5: stale bloop error: '{' expected, but 'case' found
+    case Seq(_, "!", _*) => 
+    ^^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:63:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Play extends Command("!", "play chord"):
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:64:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:64:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:66:9: stale bloop warning: Line is indented too far to the right, or a `{` or `:` is missing
+        val nbr = args.tail.map(_.toInt)
+        ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:100:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:100:1: stale bloop error: '}' expected, but eof found
+
+^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:35:10: stale bloop error: Recursive value result needs type
+      if result != Main.exitMsg then loopUntilExit(nextLine)
+         ^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:43:25: stale bloop error: Not found: str
+    case _ => s"Usage: $str [cmd]"
+                        ^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:48:25: stale bloop error: Not found: args
+    case _ => s"Error: $args after :q not allowed"
+                        ^^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:60:18: stale bloop error: Not found: name
+      s"defined $name: "
+                 ^^^^[0m
+[0m2021.12.11 02:12:48 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:61:15: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+    case _ => ""
+              ^^[0m
+[0m2021.12.11 02:12:48 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:33:64: stale bloop error: an identifier expected, but string interpolator found
+        case cmd +: args => Command.all.map(s => println(s"${s.str")); println(s"$cmd $args"); Command(cmd, args)
+                                                               ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:33:92: stale bloop error: unclosed string literal
+        case cmd +: args => Command.all.map(s => println(s"${s.str")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                           ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:39:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Help extends Command("?", "print help"):
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:42:5: stale bloop error: '}' expected, but 'case' found
+    case Seq(cmd) => Command.find(cmd).map(_.help).getOrElse(s"Unknown: $cmd")
+    ^^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:45:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Quit extends Command(":q", "quit this app"):
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:50:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Def extends Command("def", "Define function"):
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:51:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  var name = ""
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:51:3: stale bloop error: indented definitions expected, var found
+  var name = ""
+  ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:52:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  var func = Seq("")
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:53:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:54:5: stale bloop error: '{' expected, but 'case' found
+    case Seq(_, "!", _*) => 
+    ^^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:63:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Play extends Command("!", "play chord"):
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:64:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:64:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:66:9: stale bloop warning: Line is indented too far to the right, or a `{` or `:` is missing
+        val nbr = args.tail.map(_.toInt)
+        ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:100:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:100:1: stale bloop error: '}' expected, but eof found
+
+^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:35:10: stale bloop error: Recursive value result needs type
+      if result != Main.exitMsg then loopUntilExit(nextLine)
+         ^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:43:25: stale bloop error: Not found: str
+    case _ => s"Usage: $str [cmd]"
+                        ^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:48:25: stale bloop error: Not found: args
+    case _ => s"Error: $args after :q not allowed"
+                        ^^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:60:18: stale bloop error: Not found: name
+      s"defined $name: "
+                 ^^^^[0m
+[0m2021.12.11 02:12:50 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:61:15: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+    case _ => ""
+              ^^[0m
+[0m2021.12.11 02:12:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:50 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:12:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:52 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:12:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:55 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:12:57 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:12:57 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 02:13:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:13:36 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:13:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:13:38 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:38 INFO  time: compiled w13_music_proj in 40ms[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:39 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:40 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:6:48: stale bloop error: unclosed string literal
+class Defined extends Command(s"${Def.name}", s"Execute the function $"){
+                                               ^[0m
+[0m2021.12.11 02:13:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:13:40 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 02:13:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:13:42 INFO  time: compiled w13_music_proj in 0.53s[0m
+[0m2021.12.11 02:14:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:14:10 INFO  time: compiled w13_music_proj in 96ms[0m
+[0m2021.12.11 02:14:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:14:14 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:14:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:14:18 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:15:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:15:55 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:27: stale bloop error: unclosed string literal
+    all.map(s => println(s"s.str))
+                          ^[0m
+[0m2021.12.11 02:15:55 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:15:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:27: stale bloop error: unclosed string literal
+    all.map(s => println(s"s.str))
+                          ^[0m
+[0m2021.12.11 02:15:56 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:27: stale bloop error: unclosed string literal
+    all.map(s => println(s"s.str))
+                          ^[0m
+[0m2021.12.11 02:15:57 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:15:57 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:16:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:16:00 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 02:16:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:32: stale bloop error: an identifier expected, but string interpolator found
+    all.map(s => println(s"${s.str"))
+                               ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:32: stale bloop error: an identifier expected, but string interpolator found
+    all.map(s => println(s"${s.str"))
+                               ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def loopUntilExit(nextLine: () => String): Unit =
+  ^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:52: stale bloop error: expression expected but val found
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                   ^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Help extends Command("?", "print help"):
+^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Quit extends Command(":q", "quit this app"):
+^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:50: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                 ^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:31:8: stale bloop error: Not found: line
+    if line != null then
+       ^^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:32:20: stale bloop error: Not found: line
+      val result = line.split(' ').toSeq match
+                   ^^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:94: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                             ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:99: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                  ^^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:115: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                  ^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:120: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                       ^^^^[0m
+[0m2021.12.11 02:16:02 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:36:52: stale bloop error: Not found: nextLine
+      if result != Main.exitMsg then loopUntilExit(nextLine)
+                                                   ^^^^^^^^[0m
+[0m2021.12.11 02:16:02 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:32: stale bloop error: an identifier expected, but string interpolator found
+    all.map(s => println(s"${s.str"))
+                               ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def loopUntilExit(nextLine: () => String): Unit =
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:52: stale bloop error: expression expected but val found
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                   ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Help extends Command("?", "print help"):
+^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Quit extends Command(":q", "quit this app"):
+^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:50: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                 ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:31:8: stale bloop error: Not found: line
+    if line != null then
+       ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:32:20: stale bloop error: Not found: line
+      val result = line.split(' ').toSeq match
+                   ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:94: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                             ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:99: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                  ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:115: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:120: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                       ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:36:52: stale bloop error: Not found: nextLine
+      if result != Main.exitMsg then loopUntilExit(nextLine)
+                                                   ^^^^^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:24:32: stale bloop error: an identifier expected, but string interpolator found
+    all.map(s => println(s"${s.str"))
+                               ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def loopUntilExit(nextLine: () => String): Unit =
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:52: stale bloop error: expression expected but val found
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                   ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:40:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Help extends Command("?", "print help"):
+^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:41:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:46:1: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+object Quit extends Command(":q", "quit this app"):
+^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+  def apply(args: Seq[String]): String = args match
+  ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:47:3: stale bloop error: indented definitions expected, def found
+  def apply(args: Seq[String]): String = args match
+  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:29:50: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+  def loopUntilExit(nextLine: () => String): Unit =
+                                                 ^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:31:8: stale bloop error: Not found: line
+    if line != null then
+       ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:32:20: stale bloop error: Not found: line
+      val result = line.split(' ').toSeq match
+                   ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:94: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                             ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:99: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                  ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:115: stale bloop error: Not found: cmd
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                  ^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:34:120: stale bloop error: Not found: args
+        case cmd +: args => Command.all.map(s => println(s"${s.str} ${s.help}")); println(s"$cmd $args"); Command(cmd, args)
+                                                                                                                       ^^^^[0m
+[0m2021.12.11 02:16:04 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:36:52: stale bloop error: Not found: nextLine
+      if result != Main.exitMsg then loopUntilExit(nextLine)
+                                                   ^^^^^^^^[0m
+[0m2021.12.11 02:16:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:16:05 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 02:16:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:16:09 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 02:20:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:20:04 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:20:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:20:08 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:20:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:20:10 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 02:20:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:20:17 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 02:22:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:22:22 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:22:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:22:27 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 02:25:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:25:27 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 02:30:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:30:49 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 02:30:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:30:52 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:30:54 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:30:54 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:30:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:30:56 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 02:31:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:31:10 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 02:31:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:31:15 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 02:31:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:31:23 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:31:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:31:26 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:31:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:31:56 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:32:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:32:15 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 02:32:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:32:49 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:32:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:32:51 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:32:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:32:53 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:32:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:32:56 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:33:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:33:13 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:33:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:33:22 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:34:29 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:29 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:34:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:33 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:34:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:36 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:34:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:39 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:34:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:42 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:34:45 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:34:45 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 02:35:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:35:42 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 02:35:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:35:59 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:36:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:36:01 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:36:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:36:21 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:36:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:36:38 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:37:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:37:59 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:39:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:39:27 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:39:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:39:30 INFO  time: compiled w13_music_proj in 99ms[0m
+[0m2021.12.11 02:39:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:39:36 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 02:39:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:39:49 INFO  time: compiled w13_music_proj in 0.46s[0m
+[0m2021.12.11 02:42:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:42:50 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:43:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:16 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:43:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:18 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:43:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:21 INFO  time: compiled w13_music_proj in 75ms[0m
+[0m2021.12.11 02:43:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:25 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 02:43:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:27 INFO  time: compiled w13_music_proj in 74ms[0m
+[0m2021.12.11 02:43:29 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:29 INFO  time: compiled w13_music_proj in 70ms[0m
+[0m2021.12.11 02:43:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:43:38 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:44:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:44:53 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:46:37 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:46:37 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:46:47 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:46:47 INFO  time: compiled w13_music_proj in 0.22s[0m
+[0m2021.12.11 02:48:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:13 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:48:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:16 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:48:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:18 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:48:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:20 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:20 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:20 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:20 INFO  time: compiled w13_music_proj in 43ms[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:22 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:22 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:21 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:22 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:9:12: stale bloop error: unclosed string literal
+          s"Called function: $" 
+           ^[0m
+[0m2021.12.11 02:48:22 INFO  C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:12:1: stale bloop error: Illegal start of toplevel definition
+> object Command:
+>   var al[0m
+[0m2021.12.11 02:48:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:23 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 02:48:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:48:26 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 02:51:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:51:04 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 02:52:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:52:07 INFO  time: compiled w13_music_proj in 75ms[0m
+[0m2021.12.11 02:52:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:52:10 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 02:52:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:52:22 INFO  time: compiled w13_music_proj in 68ms[0m
+[0m2021.12.11 02:52:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:52:24 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 02:53:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:53:14 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:53:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:53:22 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:53:35 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:53:35 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:54:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:03 INFO  time: compiled w13_music_proj in 92ms[0m
+[0m2021.12.11 02:54:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:20 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 02:54:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:22 INFO  time: compiled w13_music_proj in 90ms[0m
+[0m2021.12.11 02:54:32 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:32 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:54:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:39 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:54:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:54:55 INFO  time: compiled w13_music_proj in 88ms[0m
+[0m2021.12.11 02:55:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:05 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 02:55:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:07 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:55:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:19 INFO  time: compiled w13_music_proj in 0.2s[0m
+Dec 11, 2021 2:55:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4161
+[0m2021.12.11 02:55:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:28 INFO  time: compiled w13_music_proj in 95ms[0m
+[0m2021.12.11 02:55:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:33 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 02:55:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:55:40 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.11 02:56:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:56:12 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 02:57:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:22 INFO  time: compiled w13_music_proj in 0.45s[0m
+[0m2021.12.11 02:57:34 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:34 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 02:57:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:48 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 02:57:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:52 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.11 02:57:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:56 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 02:57:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:57:58 INFO  time: compiled w13_music_proj in 0.55s[0m
+[0m2021.12.11 02:58:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:58:01 INFO  time: compiled w13_music_proj in 0.46s[0m
+[0m2021.12.11 02:58:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 02:58:06 INFO  time: compiled w13_music_proj in 0.35s[0m

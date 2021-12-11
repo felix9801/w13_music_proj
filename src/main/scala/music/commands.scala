@@ -3,14 +3,22 @@ package music
 abstract class Command(val str: String, val help: String):
   def apply(args: Seq[String]): String
 
+class Defined extends Command(s"${Def.name}", s"Execute the function ${Def.name}"){
+      //New function every new instance
+      val command = Def.func.tail
+        def apply(args: Seq[String]): String =
+          Play(command) 
+}
+
 object Command:
   var all: Seq[Command] = Seq(Help, Quit, Play, Def)
-  val allHelpTexts: String  =
+  def allHelpTexts: String  =
     Command.all.map(c => c.str.padTo(10,' ') + c.help).mkString("\n")
 
   def find(command: String): Option[Command] = all.find(_.str == command)
 
   def apply(cmd: String, args: Seq[String]): String =
+
     all.find(_.str == cmd) match
       case Some(c) => c(args)
       case None => s"Unkown command: $cmd\nType ? for help."
@@ -26,9 +34,16 @@ object Command:
     else 
       println("\n" + Main.exitMsg)
 
+object Delete extends Command("del", "delete command"):
+  def apply(args: Seq[String]): String = args match{
+    case Seq(cmd) => 
+            //Map through all and if matching lookup sequence remove element
+    case _ => s"Choose a command to delete..."
+  }
+
 object Help extends Command("?", "print help"):
   def apply(args: Seq[String]): String = args match
-    case Seq() => Command.allHelpTexts
+    case Seq() => Command.allHelpTexts 
     case Seq(cmd) => Command.find(cmd).map(_.help).getOrElse(s"Unknown: $cmd")
     case _ => s"Usage: $str [cmd]"
 
@@ -38,13 +53,18 @@ object Quit extends Command(":q", "quit this app"):
     case _ => s"Error: $args after :q not allowed"
 
 object Def extends Command("def", "Define function"):
+  //Accessible by Defined
+  var name = ""
+  var func = Seq("")
   def apply(args: Seq[String]): String = args match
     case Seq(_, "!", _*) => 
-      val name = args.head
-      val func = args.tail  
-      val st = func.foreach(s => )
+      name = args.head //Ex. Em
+      func = args.tail //Ex. ! p 64 67 71
 
-      s"defined $name: $st"
+      Command.all = Command.all :+ new Defined
+      Command.all.map(c => println(c))
+
+      s"defined $name: ${func.mkString(" ")}"
     case _ => ""
 
 object Play extends Command("!", "play chord"):

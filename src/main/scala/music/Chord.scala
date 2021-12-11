@@ -22,6 +22,7 @@ case class Chord(ps: Vector[Pitch]):
     case Vector(0, 4, 7, 11) => root.pitchClassName + "maj7"
     case Vector(0, 3, 6)     => root.pitchClassName + "dim"
     case Vector(0, 4, 8)     => root.pitchClassName + "aug"
+    case Vector(0, 6, 10, 15)=> root.pitchClassName + " Tristan"
     case _ => root.pitchClassName + intervals(root).mkString("[",",","]")
 
   override def toString = ps.map(_.name).mkString("Chord(",",",")")
