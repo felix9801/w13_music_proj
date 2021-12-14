@@ -1,663 +1,0 @@
-
-•Û src/main/scala/music/Synth.scala*
-music/Synth.
- *Synth€*-
-music/Synth.underlying. €*
-underlying€*
-local0 €*synth€*.
-music/Synth.midiChannel().*midiChannel€*3
-#music/Synth.midiChannel().(channel)*channel€*(
-music/Synth.channels().*channels€*.
-music/Synth.instruments().*instruments€*8
-music/Synth.changeInstrument().*changeInstrument€*8
-(music/Synth.changeInstrument().(program)*program€*8
-(music/Synth.changeInstrument().(channel)*channel€*
-local1 €*patch€*
-local2 €*p€*L
-)music/Synth.changeInstrument$default$2().*changeInstrument$default$2€*=
-music/Synth.defaultInstruments. À*defaultInstruments€*8
-music/Synth.resetInstruments().*resetInstruments€*
-local3*x$1€*
-local4 €*program€*
-local5 €*channel€*$
-music/Synth.noteOn().*noteOn€*4
-!music/Synth.noteOn().(noteNumber)*
-noteNumber€*0
-music/Synth.noteOn().(velocity)*velocity€*.
-music/Synth.noteOn().(channel)*channel€*8
-music/Synth.noteOn$default$1().*noteOn$default$1€*8
-music/Synth.noteOn$default$2().*noteOn$default$2€*8
-music/Synth.noteOn$default$3().*noteOn$default$3€*&
-music/Synth.noteOff().*noteOff€*5
-"music/Synth.noteOff().(noteNumber)*
-noteNumber€*/
-music/Synth.noteOff().(channel)*channel€*:
- music/Synth.noteOff$default$1().*noteOff$default$1€*:
- music/Synth.noteOff$default$2().*noteOff$default$2€*.
-music/Synth.allNotesOff().*allNotesOff€*3
-#music/Synth.allNotesOff().(channel)*channel€*.
-music/Synth.allSoundOff().*allSoundOff€*3
-#music/Synth.allSoundOff().(channel)*channel€*&
-music/Synth.silence().*silence€*
-local6*channel€*"
-music/Synth.delay().*delay€*+
-music/Synth.delay().(millis)*millis€*0
-music/Synth.playBlocking().*playBlocking€*<
-(music/Synth.playBlocking().(noteNumbers)*noteNumbers€*6
-%music/Synth.playBlocking().(velocity)*velocity€*6
-%music/Synth.playBlocking().(duration)*duration€*2
-#music/Synth.playBlocking().(spread)*spread€*0
-"music/Synth.playBlocking().(after)*after€*4
-$music/Synth.playBlocking().(channel)*channel€*
-local7*nbr€*D
-%music/Synth.playBlocking$default$1().*playBlocking$default$1€*D
-%music/Synth.playBlocking$default$2().*playBlocking$default$2€*D
-%music/Synth.playBlocking$default$3().*playBlocking$default$3€*D
-%music/Synth.playBlocking$default$4().*playBlocking$default$4€*D
-%music/Synth.playBlocking$default$5().*playBlocking$default$5€*D
-%music/Synth.playBlocking$default$6().*playBlocking$default$6€*8
-music/Synth.playConcurrently().*playConcurrently€*@
-,music/Synth.playConcurrently().(noteNumbers)*noteNumbers€*:
-)music/Synth.playConcurrently().(velocity)*velocity€*:
-)music/Synth.playConcurrently().(duration)*duration€*6
-'music/Synth.playConcurrently().(spread)*spread€*4
-&music/Synth.playConcurrently().(after)*after€*8
-(music/Synth.playConcurrently().(channel)*channel€*L
-)music/Synth.playConcurrently$default$1().*playConcurrently$default$1€*L
-)music/Synth.playConcurrently$default$2().*playConcurrently$default$2€*L
-)music/Synth.playConcurrently$default$3().*playConcurrently$default$3€*L
-)music/Synth.playConcurrently$default$4().*playConcurrently$default$4€*L
-)music/Synth.playConcurrently$default$5().*playConcurrently$default$5€*L
-)music/Synth.playConcurrently$default$6().*playConcurrently$default$6€*2
-music/Synth.GMInstruments.
- *GMInstruments€*K
--music/Synth.GMInstruments.AcousticGrandPiano. €*AcousticGrandPiano€*M
-.music/Synth.GMInstruments.BrightAcousticPiano. €*BrightAcousticPiano€*K
--music/Synth.GMInstruments.ElectricGrandPiano. €*ElectricGrandPiano€*C
-)music/Synth.GMInstruments.HonkyTonkPiano. €*HonkyTonkPiano€*C
-)music/Synth.GMInstruments.ElectricPiano1. €*ElectricPiano1€*C
-)music/Synth.GMInstruments.ElectricPiano2. €*ElectricPiano2€*=
-&music/Synth.GMInstruments.Harpsichord. €*Harpsichord€*1
- music/Synth.GMInstruments.Clavi. €*Clavi€*5
-"music/Synth.GMInstruments.Celesta. €*Celesta€*?
-'music/Synth.GMInstruments.Glockenspiel. €*Glockenspiel€*7
-#music/Synth.GMInstruments.MusicBox. €*MusicBox€*;
-%music/Synth.GMInstruments.Vibraphone. €*
-Vibraphone€*5
-"music/Synth.GMInstruments.Marimba. €*Marimba€*9
-$music/Synth.GMInstruments.Xylophone. €*	Xylophone€*?
-'music/Synth.GMInstruments.TubularBells. €*TubularBells€*7
-#music/Synth.GMInstruments.Dulcimer. €*Dulcimer€*?
-'music/Synth.GMInstruments.DrawbarOrgan. €*DrawbarOrgan€*E
-*music/Synth.GMInstruments.PercussiveOrgan. €*PercussiveOrgan€*9
-$music/Synth.GMInstruments.RockOrgan. €*	RockOrgan€*=
-&music/Synth.GMInstruments.ChurchOrgan. €*ChurchOrgan€*9
-$music/Synth.GMInstruments.ReedOrgan. €*	ReedOrgan€*9
-$music/Synth.GMInstruments.Accordion. €*	Accordion€*9
-$music/Synth.GMInstruments.Harmonica. €*	Harmonica€*C
-)music/Synth.GMInstruments.TangoAccordion. €*TangoAccordion€*M
-.music/Synth.GMInstruments.AcousticGuitarNylon. €*AcousticGuitarNylon€*M
-.music/Synth.GMInstruments.AcousticGuitarSteel. €*AcousticGuitarSteel€*K
--music/Synth.GMInstruments.ElectricGuitarJazz. €*ElectricGuitarJazz€*M
-.music/Synth.GMInstruments.ElectricGuitarClean. €*ElectricGuitarClean€*M
-.music/Synth.GMInstruments.ElectricGuitarMuted. €*ElectricGuitarMuted€*G
-+music/Synth.GMInstruments.OverdrivenGuitar. €*OverdrivenGuitar€*G
-+music/Synth.GMInstruments.DistortionGuitar. €*DistortionGuitar€*E
-*music/Synth.GMInstruments.GuitarHarmonics. €*GuitarHarmonics€*?
-'music/Synth.GMInstruments.AcousticBass. €*AcousticBass€*K
--music/Synth.GMInstruments.ElectricBassFinger. €*ElectricBassFinger€*G
-+music/Synth.GMInstruments.ElectricBassPick. €*ElectricBassPick€*?
-'music/Synth.GMInstruments.FretlessBass. €*FretlessBass€*9
-$music/Synth.GMInstruments.SlapBass1. €*	SlapBass1€*9
-$music/Synth.GMInstruments.SlapBass2. €*	SlapBass2€*;
-%music/Synth.GMInstruments.SynthBass1. €*
-SynthBass1€*;
-%music/Synth.GMInstruments.SynthBass2. €*
-SynthBass2€*3
-!music/Synth.GMInstruments.Violin. €*Violin€*1
- music/Synth.GMInstruments.Viola. €*Viola€*1
- music/Synth.GMInstruments.Cello. €*Cello€*;
-%music/Synth.GMInstruments.Contrabass. €*
-Contrabass€*C
-)music/Synth.GMInstruments.TremoloStrings. €*TremoloStrings€*G
-+music/Synth.GMInstruments.PizzicatoStrings. €*PizzicatoStrings€*C
-)music/Synth.GMInstruments.OrchestralHarp. €*OrchestralHarp€*5
-"music/Synth.GMInstruments.Timpani. €*Timpani€*E
-*music/Synth.GMInstruments.StringEnsemble1. €*StringEnsemble1€*E
-*music/Synth.GMInstruments.StringEnsemble2. €*StringEnsemble2€*A
-(music/Synth.GMInstruments.SynthStrings1. €*SynthStrings1€*A
-(music/Synth.GMInstruments.SynthStrings2. €*SynthStrings2€*9
-$music/Synth.GMInstruments.ChoirAahs. €*	ChoirAahs€*9
-$music/Synth.GMInstruments.VoiceOohs. €*	VoiceOohs€*;
-%music/Synth.GMInstruments.SynthVoice. €*
-SynthVoice€*?
-'music/Synth.GMInstruments.OrchestraHit. €*OrchestraHit€*5
-"music/Synth.GMInstruments.Trumpet. €*Trumpet€*7
-#music/Synth.GMInstruments.Trombone. €*Trombone€*/
-music/Synth.GMInstruments.Tuba. €*Tuba€*?
-'music/Synth.GMInstruments.MutedTrumpet. €*MutedTrumpet€*;
-%music/Synth.GMInstruments.FrenchHorn. €*
-FrenchHorn€*?
-'music/Synth.GMInstruments.BrassSection. €*BrassSection€*=
-&music/Synth.GMInstruments.SynthBrass1. €*SynthBrass1€*=
-&music/Synth.GMInstruments.SynthBrass2. €*SynthBrass2€*;
-%music/Synth.GMInstruments.SopranoSax. €*
-SopranoSax€*5
-"music/Synth.GMInstruments.AltoSax. €*AltoSax€*7
-#music/Synth.GMInstruments.TenorSax. €*TenorSax€*=
-&music/Synth.GMInstruments.BaritoneSax. €*BaritoneSax€*/
-music/Synth.GMInstruments.Oboe. €*Oboe€*=
-&music/Synth.GMInstruments.EnglishHorn. €*EnglishHorn€*5
-"music/Synth.GMInstruments.Bassoon. €*Bassoon€*7
-#music/Synth.GMInstruments.Clarinet. €*Clarinet€*5
-"music/Synth.GMInstruments.Piccolo. €*Piccolo€*1
- music/Synth.GMInstruments.Flute. €*Flute€*7
-#music/Synth.GMInstruments.Recorder. €*Recorder€*7
-#music/Synth.GMInstruments.PanFlute. €*PanFlute€*=
-&music/Synth.GMInstruments.BlownBottle. €*BlownBottle€*;
-%music/Synth.GMInstruments.Shakuhachi. €*
-Shakuhachi€*5
-"music/Synth.GMInstruments.Whistle. €*Whistle€*5
-"music/Synth.GMInstruments.Ocarina. €*Ocarina€*E
-*music/Synth.GMInstruments.SynthLeadSquare. €*SynthLeadSquare€*I
-,music/Synth.GMInstruments.SynthLeadSawtooth. €*SynthLeadSawtooth€*I
-,music/Synth.GMInstruments.SynthLeadCalliope. €*SynthLeadCalliope€*C
-)music/Synth.GMInstruments.SynthLeadChiff. €*SynthLeadChiff€*G
-+music/Synth.GMInstruments.SynthLeadCharang. €*SynthLeadCharang€*C
-)music/Synth.GMInstruments.SynthLeadVoice. €*SynthLeadVoice€*E
-*music/Synth.GMInstruments.SynthLeadFifths. €*SynthLeadFifths€*I
-,music/Synth.GMInstruments.SynthLeadBassLead. €*SynthLeadBassLead€*C
-)music/Synth.GMInstruments.SynthPadNewAge. €*SynthPadNewAge€*?
-'music/Synth.GMInstruments.SynthPadWarm. €*SynthPadWarm€*I
-,music/Synth.GMInstruments.SynthPadPolysynth. €*SynthPadPolysynth€*A
-(music/Synth.GMInstruments.SynthPadChoir. €*SynthPadChoir€*A
-(music/Synth.GMInstruments.SynthPadBowed. €*SynthPadBowed€*G
-+music/Synth.GMInstruments.SynthPadMetallic. €*SynthPadMetallic€*?
-'music/Synth.GMInstruments.SynthPadHalo. €*SynthPadHalo€*A
-(music/Synth.GMInstruments.SynthPadSweep. €*SynthPadSweep€*E
-*music/Synth.GMInstruments.SynthEffectRain. €*SynthEffectRain€*Q
-0music/Synth.GMInstruments.SynthEffectSoundtrack. €*SynthEffectSoundtrack€*K
--music/Synth.GMInstruments.SynthEffectCrystal. €*SynthEffectCrystal€*Q
-0music/Synth.GMInstruments.SynthEffectAtmosphere. €*SynthEffectAtmosphere€*Q
-0music/Synth.GMInstruments.SynthEffectBrightness. €*SynthEffectBrightness€*K
--music/Synth.GMInstruments.SynthEffectGoblins. €*SynthEffectGoblins€*I
-,music/Synth.GMInstruments.SynthEffectEchoes. €*SynthEffectEchoes€*G
-+music/Synth.GMInstruments.SynthEffectSciFi. €*SynthEffectSciFi€*1
- music/Synth.GMInstruments.Sitar. €*Sitar€*1
- music/Synth.GMInstruments.Banjo. €*Banjo€*7
-#music/Synth.GMInstruments.Shamisen. €*Shamisen€*/
-music/Synth.GMInstruments.Koto. €*Koto€*5
-"music/Synth.GMInstruments.Kalimba. €*Kalimba€*5
-"music/Synth.GMInstruments.BagPipe. €*BagPipe€*3
-!music/Synth.GMInstruments.Fiddle. €*Fiddle€*3
-!music/Synth.GMInstruments.Shanai. €*Shanai€*;
-%music/Synth.GMInstruments.TinkleBell. €*
-TinkleBell€*1
- music/Synth.GMInstruments.Agogo. €*Agogo€*;
-%music/Synth.GMInstruments.SteelDrums. €*
-SteelDrums€*9
-$music/Synth.GMInstruments.Woodblock. €*	Woodblock€*9
-$music/Synth.GMInstruments.TaikoDrum. €*	TaikoDrum€*;
-%music/Synth.GMInstruments.MelodicTom. €*
-MelodicTom€*9
-$music/Synth.GMInstruments.SynthDrum. €*	SynthDrum€*A
-(music/Synth.GMInstruments.ReverseCymbal. €*ReverseCymbal€*E
-*music/Synth.GMInstruments.GuitarFretNoise. €*GuitarFretNoise€*=
-&music/Synth.GMInstruments.BreathNoise. €*BreathNoise€*7
-#music/Synth.GMInstruments.Seashore. €*Seashore€*9
-$music/Synth.GMInstruments.BirdTweet. €*	BirdTweet€*A
-(music/Synth.GMInstruments.TelephoneRing. €*TelephoneRing€*;
-%music/Synth.GMInstruments.Helicopter. €*
-Helicopter€*7
-#music/Synth.GMInstruments.Applause. €*Applause€*5
-"music/Synth.GMInstruments.Gunshot. €*Gunshot€2
- music/2
- music/Synth.2
- javax/sound/midi/2
- javax/sound/2
-	 javax/2(
-	 music/Synth.GMInstruments.2%
- music/Synth.underlying.2+
- javax/sound/midi/Synthesizer#2'
- scala/Predef.println(+1).2'
- scala/Predef.println(+1).2<
-+ 3.scala/collection/IterableOnceOps#mkString(+1).28
- *scala/LowPriorityImplicits#wrapRefArray().2>
- (0javax/sound/midi/MidiSystem#getMidiDeviceInfo().2*
- javax/sound/midi/MidiSystem#2
-		 local02;
-		 )-javax/sound/midi/MidiSystem#getSynthesizer().2*
-		 javax/sound/midi/MidiSystem#21
-
-
-
- #javax/sound/midi/MidiDevice#open().2
-
-
- 	local02$
- 
-scala/Predef.assert().2@
- #2javax/sound/midi/Synthesizer#loadAllInstruments().2
- local02A
-* =3javax/sound/midi/Synthesizer#getDefaultSoundbank().2
-$ )local02
- 	local02-
- music/Synth.resetInstruments().2(
- music/Synth.midiChannel().21
- #music/Synth.midiChannel().(channel)2
- 
-scala/Int#2+
-! ,javax/sound/midi/MidiChannel#2"
-F Kscala/Array#apply().29
-: E+javax/sound/midi/Synthesizer#getChannels().2%
-/ 9music/Synth.underlying.21
-L S#music/Synth.midiChannel().(channel)2%
- music/Synth.channels().2"
- scala/package.Range#22
-/ 6$scala/collection/ArrayOps#indices().2)
- scala/Predef.refArrayOps().29
-# .+javax/sound/midi/Synthesizer#getChannels().2%
- "music/Synth.underlying.2(
- music/Synth.instruments().2 
- scala/package.Seq#2*
- !javax/sound/midi/Instrument#20
-E J"scala/collection/ArrayOps#toSeq().2)
-% %scala/Predef.refArrayOps().2B
-0 D4javax/sound/midi/Synthesizer#getLoadedInstruments().2%
-% /music/Synth.underlying.2-
- music/Synth.changeInstrument().26
- (music/Synth.changeInstrument().(program)2
-  #
-scala/Int#26
-% ,(music/Synth.changeInstrument().(channel)2
-. 1
-scala/Int#2
-8 <scala/Unit#2
- local12!
-C Fscala/Option#map().26
-  (scala/collection/IterableOnceOps#find().2(
- music/Synth.instruments().2!
-7 9scala/Int#`==`(+3).22
-, 6$javax/sound/midi/Patch#getProgram().25
-# +'javax/sound/midi/Instrument#getPatch().26
-: A(music/Synth.changeInstrument().(program)25
-I Q'javax/sound/midi/Instrument#getPatch().2
- 	local12#
- scala/Some.unapply().2
- scala/Some.2
- local22=
-+ 8/javax/sound/midi/MidiChannel#programChange(+1).2(
- !music/Synth.midiChannel().26
-" )(music/Synth.changeInstrument().(channel)2/
-; B!javax/sound/midi/Patch#getBank().2
-9 :local222
-F P$javax/sound/midi/Patch#getProgram().2
-D Elocal22
- scala/None.2'
- scala/Predef.println(+1).2&
-N Oscala/StringContext#s().2*
- scala/StringContext.apply().26
-= D(music/Synth.changeInstrument().(program)2-
- music/Synth.defaultInstruments.27
-& &)scala/collection/IterableFactory#apply().2#
-  &scala/package.Vector.2;
-' 9-music/Synth.GMInstruments.AcousticGrandPiano.2<
-; N.music/Synth.GMInstruments.AcousticGuitarNylon.25
-' 3'music/Synth.GMInstruments.AcousticBass.20
-5 <"music/Synth.GMInstruments.Trumpet.2.
-> C music/Synth.GMInstruments.Flute.2-
- music/Synth.resetInstruments().2
- scala/Unit#2:
-A H,scala/collection/immutable/Vector#foreach().2I
-4 @;scala/collection/StrictOptimizedIterableOps#zipWithIndex().2-
-! 3music/Synth.defaultInstruments.2
- local32%
-
- 
-scala/Tuple2.unapply().2
-
- local42
- local52-
- /music/Synth.changeInstrument().2
-0 7local42
-9 @local52#
-"" music/Synth.noteOn().2/
-"" !music/Synth.noteOn().(noteNumber)2
-"" 
-scala/Int#2-
-"#" +music/Synth.noteOn().(velocity)2
-"-" 0
-scala/Int#2,
-"7" >music/Synth.noteOn().(channel)2
-"@" C
-scala/Int#2
-"J" Nscala/Unit#24
-## &javax/sound/midi/MidiChannel#noteOn().2(
-## music/Synth.midiChannel().2,
-## music/Synth.noteOn().(channel)2/
-# # *!music/Synth.noteOn().(noteNumber)2-
-#,# 4music/Synth.noteOn().(velocity)2$
-%% music/Synth.noteOff().20
-%% "music/Synth.noteOff().(noteNumber)2
-%% 
-scala/Int#2-
-%$% +music/Synth.noteOff().(channel)2
-%-% 0
-scala/Int#2
-%7% ;scala/Unit#27
-&&  )javax/sound/midi/MidiChannel#noteOff(+1).2(
-&& music/Synth.midiChannel().2-
-&& music/Synth.noteOff().(channel)20
-&!& +"music/Synth.noteOff().(noteNumber)2(
-(( music/Synth.allNotesOff().21
-(( #music/Synth.allNotesOff().(channel)2
-(( 
-scala/Int#2
-(!( %scala/Unit#29
-(=( H+javax/sound/midi/MidiChannel#allNotesOff().2(
-((( 3music/Synth.midiChannel().21
-(4( ;#music/Synth.allNotesOff().(channel)2(
-)) music/Synth.allSoundOff().21
-)) #music/Synth.allSoundOff().(channel)2
-)) 
-scala/Int#2
-)!) %scala/Unit#29
-)=) H+javax/sound/midi/MidiChannel#allSoundOff().2(
-)() 3music/Synth.midiChannel().21
-)4) ;#music/Synth.allSoundOff().(channel)2$
-** music/Synth.silence().2
-** scala/Unit#29
-*!* (+scala/collection/immutable/Range#foreach().2%
-**  music/Synth.channels().2(
-*)* 4music/Synth.allSoundOff().2
-*)* )local62"
-,, music/Synth.delay().2*
-,, music/Synth.delay().(millis)2
-,, scala/Long#2
-,, scala/Unit#2'
-,), .java/lang/Thread#sleep().2
-,", (java/lang/Thread#2*
-,/, 5music/Synth.delay().(millis)2)
-// music/Synth.playBlocking().26
-// (music/Synth.playBlocking().(noteNumbers)2 
-/ / #scala/package.Seq#2
-/$/ '
-scala/Int#23
-00 %music/Synth.playBlocking().(velocity)2
-00  
-scala/Int#23
-11 %music/Synth.playBlocking().(duration)2
-11 !scala/Long#21
-22 #music/Synth.playBlocking().(spread)2
-22 !scala/Long#20
-33 "music/Synth.playBlocking().(after)2
-33 !scala/Long#22
-44 $music/Synth.playBlocking().(channel)2
-44  
-scala/Int#2
-55 	scala/Unit#2"
-66 	music/Synth.delay().20
-6
-6 "music/Synth.playBlocking().(after)29
-77 +scala/collection/IterableOnceOps#foreach().26
-77 (music/Synth.playBlocking().(noteNumbers)2
-77 local72#
-88 music/Synth.noteOn().2
-88 local723
-88 %music/Synth.playBlocking().(velocity)22
-88 #$music/Synth.playBlocking().(channel)2"
-99 music/Synth.delay().21
-99 #music/Synth.playBlocking().(spread)2"
-;; 	music/Synth.delay().23
-;
-; %music/Synth.playBlocking().(duration)29
-<< +scala/collection/IterableOnceOps#foreach().26
-<< (music/Synth.playBlocking().(noteNumbers)2$
-<< music/Synth.noteOff().22
-<#< *$music/Synth.playBlocking().(channel)27
-/1/ 1)scala/collection/IterableFactory#apply().2#
-/+/ 1scala/package.Vector.2-
->> music/Synth.playConcurrently().2:
->> ",music/Synth.playConcurrently().(noteNumbers)2 
->$> 'scala/package.Seq#2
->(> +
-scala/Int#27
-?? )music/Synth.playConcurrently().(velocity)2
-?!? $
-scala/Int#27
-@@ )music/Synth.playConcurrently().(duration)2
-@!@ %scala/Long#25
-AA 'music/Synth.playConcurrently().(spread)2
-A!A %scala/Long#24
-BB &music/Synth.playConcurrently().(after)2
-B!B %scala/Long#26
-CC (music/Synth.playConcurrently().(channel)2
-C!C $
-scala/Int#2
-DD 	scala/Unit#2C
-E7E =5scala/concurrent/ExecutionContext.Implicits.global().2:
-E-E 6,scala/concurrent/ExecutionContext.Implicits.20
-EE ,"scala/concurrent/ExecutionContext.2
-EE scala/concurrent/2
-EE scala/2.
-FF  scala/concurrent/Future.apply().2&
-FF scala/concurrent/Future.2
-F
-F scala/concurrent/2
-FF 	scala/2)
-GG music/Synth.playBlocking().2:
-GG ,music/Synth.playConcurrently().(noteNumbers)27
-G G ()music/Synth.playConcurrently().(velocity)27
-G*G 2)music/Synth.playConcurrently().(duration)25
-G4G :'music/Synth.playConcurrently().(spread)24
-G<G A&music/Synth.playConcurrently().(after)26
-GCG J(music/Synth.playConcurrently().(channel)2C
-HH 5scala/concurrent/ExecutionContext.Implicits.global().27
->5> 5)scala/collection/IterableFactory#apply().2#
->/> 5scala/package.Vector.2(
-J	J music/Synth.GMInstruments.2;
-MM -music/Synth.GMInstruments.AcousticGrandPiano.2<
-NN .music/Synth.GMInstruments.BrightAcousticPiano.2;
-OO -music/Synth.GMInstruments.ElectricGrandPiano.27
-PP )music/Synth.GMInstruments.HonkyTonkPiano.27
-QQ )music/Synth.GMInstruments.ElectricPiano1.27
-RR )music/Synth.GMInstruments.ElectricPiano2.24
-SS &music/Synth.GMInstruments.Harpsichord.2.
-TT  music/Synth.GMInstruments.Clavi.20
-UU "music/Synth.GMInstruments.Celesta.25
-VV 'music/Synth.GMInstruments.Glockenspiel.21
-WW #music/Synth.GMInstruments.MusicBox.23
-XX %music/Synth.GMInstruments.Vibraphone.20
-YY "music/Synth.GMInstruments.Marimba.22
-ZZ $music/Synth.GMInstruments.Xylophone.25
-[[ 'music/Synth.GMInstruments.TubularBells.21
-\\ #music/Synth.GMInstruments.Dulcimer.25
-]] 'music/Synth.GMInstruments.DrawbarOrgan.28
-^^ *music/Synth.GMInstruments.PercussiveOrgan.22
-__ $music/Synth.GMInstruments.RockOrgan.24
-`` &music/Synth.GMInstruments.ChurchOrgan.22
-aa $music/Synth.GMInstruments.ReedOrgan.22
-bb $music/Synth.GMInstruments.Accordion.22
-cc $music/Synth.GMInstruments.Harmonica.27
-dd )music/Synth.GMInstruments.TangoAccordion.2<
-ee .music/Synth.GMInstruments.AcousticGuitarNylon.2<
-ff .music/Synth.GMInstruments.AcousticGuitarSteel.2;
-gg -music/Synth.GMInstruments.ElectricGuitarJazz.2<
-hh .music/Synth.GMInstruments.ElectricGuitarClean.2<
-ii .music/Synth.GMInstruments.ElectricGuitarMuted.29
-jj +music/Synth.GMInstruments.OverdrivenGuitar.29
-kk +music/Synth.GMInstruments.DistortionGuitar.28
-ll *music/Synth.GMInstruments.GuitarHarmonics.25
-mm 'music/Synth.GMInstruments.AcousticBass.2;
-nn -music/Synth.GMInstruments.ElectricBassFinger.29
-oo +music/Synth.GMInstruments.ElectricBassPick.25
-pp 'music/Synth.GMInstruments.FretlessBass.22
-qq $music/Synth.GMInstruments.SlapBass1.22
-rr $music/Synth.GMInstruments.SlapBass2.23
-ss %music/Synth.GMInstruments.SynthBass1.23
-tt %music/Synth.GMInstruments.SynthBass2.2/
-uu !music/Synth.GMInstruments.Violin.2.
-vv  music/Synth.GMInstruments.Viola.2.
-ww  music/Synth.GMInstruments.Cello.23
-xx %music/Synth.GMInstruments.Contrabass.27
-yy )music/Synth.GMInstruments.TremoloStrings.29
-zz +music/Synth.GMInstruments.PizzicatoStrings.27
-{{ )music/Synth.GMInstruments.OrchestralHarp.20
-|| "music/Synth.GMInstruments.Timpani.28
-}} *music/Synth.GMInstruments.StringEnsemble1.28
-~~ *music/Synth.GMInstruments.StringEnsemble2.26
- (music/Synth.GMInstruments.SynthStrings1.28
-
-€€ (music/Synth.GMInstruments.SynthStrings2.24
-
- $music/Synth.GMInstruments.ChoirAahs.24
-
-‚‚ $music/Synth.GMInstruments.VoiceOohs.25
-
-ƒƒ %music/Synth.GMInstruments.SynthVoice.27
-
-„„ 'music/Synth.GMInstruments.OrchestraHit.22
-
-…… "music/Synth.GMInstruments.Trumpet.23
-
-†† #music/Synth.GMInstruments.Trombone.2/
-
-‡‡ music/Synth.GMInstruments.Tuba.27
-
-ˆˆ 'music/Synth.GMInstruments.MutedTrumpet.25
-
-‰‰ %music/Synth.GMInstruments.FrenchHorn.27
-
-ŠŠ 'music/Synth.GMInstruments.BrassSection.26
-
-‹‹ &music/Synth.GMInstruments.SynthBrass1.26
-
-ŒŒ &music/Synth.GMInstruments.SynthBrass2.25
-
- %music/Synth.GMInstruments.SopranoSax.22
-
-ŽŽ "music/Synth.GMInstruments.AltoSax.23
-
- #music/Synth.GMInstruments.TenorSax.26
-
- &music/Synth.GMInstruments.BaritoneSax.2/
-
-‘‘ music/Synth.GMInstruments.Oboe.26
-
-’’ &music/Synth.GMInstruments.EnglishHorn.22
-
-““ "music/Synth.GMInstruments.Bassoon.23
-
-”” #music/Synth.GMInstruments.Clarinet.22
-
-•• "music/Synth.GMInstruments.Piccolo.20
-
-––  music/Synth.GMInstruments.Flute.23
-
-—— #music/Synth.GMInstruments.Recorder.23
-
-˜˜ #music/Synth.GMInstruments.PanFlute.26
-
-™™ &music/Synth.GMInstruments.BlownBottle.25
-
-šš %music/Synth.GMInstruments.Shakuhachi.22
-
-›› "music/Synth.GMInstruments.Whistle.22
-
-œœ "music/Synth.GMInstruments.Ocarina.2:
-
- *music/Synth.GMInstruments.SynthLeadSquare.2<
-
-žž ,music/Synth.GMInstruments.SynthLeadSawtooth.2<
-
-ŸŸ ,music/Synth.GMInstruments.SynthLeadCalliope.29
-
-   )music/Synth.GMInstruments.SynthLeadChiff.2;
-
-¡¡ +music/Synth.GMInstruments.SynthLeadCharang.29
-
-¢¢ )music/Synth.GMInstruments.SynthLeadVoice.2:
-
-££ *music/Synth.GMInstruments.SynthLeadFifths.2<
-
-¤¤ ,music/Synth.GMInstruments.SynthLeadBassLead.29
-
-¥¥ )music/Synth.GMInstruments.SynthPadNewAge.27
-
-¦¦ 'music/Synth.GMInstruments.SynthPadWarm.2<
-
-§§ ,music/Synth.GMInstruments.SynthPadPolysynth.28
-
-¨¨ (music/Synth.GMInstruments.SynthPadChoir.28
-
-©© (music/Synth.GMInstruments.SynthPadBowed.2;
-
-ªª +music/Synth.GMInstruments.SynthPadMetallic.27
-
-«« 'music/Synth.GMInstruments.SynthPadHalo.28
-
-¬¬ (music/Synth.GMInstruments.SynthPadSweep.2:
-
-­­ *music/Synth.GMInstruments.SynthEffectRain.2@
-
-®® 0music/Synth.GMInstruments.SynthEffectSoundtrack.2=
-
-¯¯ -music/Synth.GMInstruments.SynthEffectCrystal.2@
-
-°° 0music/Synth.GMInstruments.SynthEffectAtmosphere.2@
-
-±± 0music/Synth.GMInstruments.SynthEffectBrightness.2=
-
-²² -music/Synth.GMInstruments.SynthEffectGoblins.2<
-
-³³ ,music/Synth.GMInstruments.SynthEffectEchoes.2;
-
-´´ +music/Synth.GMInstruments.SynthEffectSciFi.20
-
-µµ  music/Synth.GMInstruments.Sitar.20
-
-¶¶  music/Synth.GMInstruments.Banjo.23
-
-·· #music/Synth.GMInstruments.Shamisen.2/
-
-¸¸ music/Synth.GMInstruments.Koto.22
-
-¹¹ "music/Synth.GMInstruments.Kalimba.22
-
-ºº "music/Synth.GMInstruments.BagPipe.21
-
-»» !music/Synth.GMInstruments.Fiddle.21
-
-¼¼ !music/Synth.GMInstruments.Shanai.25
-
-½½ %music/Synth.GMInstruments.TinkleBell.20
-
-¾¾  music/Synth.GMInstruments.Agogo.25
-
-¿¿ %music/Synth.GMInstruments.SteelDrums.24
-
-ÀÀ $music/Synth.GMInstruments.Woodblock.24
-
-ÁÁ $music/Synth.GMInstruments.TaikoDrum.25
-
-ÂÂ %music/Synth.GMInstruments.MelodicTom.24
-
-ÃÃ $music/Synth.GMInstruments.SynthDrum.28
-
-ÄÄ (music/Synth.GMInstruments.ReverseCymbal.2:
-
-ÅÅ *music/Synth.GMInstruments.GuitarFretNoise.26
-
-ÆÆ &music/Synth.GMInstruments.BreathNoise.23
-
-ÇÇ #music/Synth.GMInstruments.Seashore.24
-
-ÈÈ $music/Synth.GMInstruments.BirdTweet.28
-
-ÉÉ (music/Synth.GMInstruments.TelephoneRing.25
-
-ÊÊ %music/Synth.GMInstruments.Helicopter.23
-
-ËË #music/Synth.GMInstruments.Applause.22
-
-ÌÌ "music/Synth.GMInstruments.Gunshot.PZ AC2DE7C62E7DCD69D7E3BAE690EF9DE7

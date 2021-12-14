@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(39b42abe-3175-4307-b0c1-2d3f8eae7c6b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@79b63325, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\felix\ScalaProjects\w13_music_proj\target\scala-3.0.1\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\felix\ScalaProjects\w13_music_proj\src\main\scala\music\commands.scala:67:32 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m67 |[0m                                [33melse[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |The start of this line does not match any of the previous indentation widths.[0m
+[0m[[0m[31merror[0m] [0m[0m   |Indentation width of current line : 32 spaces[0m
+[0m[[0m[31merror[0m] [0m[0m   |This falls between previous widths: 10 spaces and 34 spaces[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 11-Dec-2021 22:10:21[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

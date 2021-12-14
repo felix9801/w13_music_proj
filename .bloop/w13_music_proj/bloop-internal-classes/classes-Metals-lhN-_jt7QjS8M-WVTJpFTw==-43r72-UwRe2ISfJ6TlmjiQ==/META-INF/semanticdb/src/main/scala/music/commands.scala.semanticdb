@@ -1,0 +1,598 @@
+
+»ô#src/main/scala/music/commands.scala* 
+music/Command# *CommandÄ*+
+music/Command#`<init>`(). Ä@*<init>Ä*-
+music/Command#`<init>`().(str) Ä*strÄ*/
+music/Command#`<init>`().(help) Ä*helpÄ*!
+music/Command#str. Ä*strÄ*#
+music/Command#help. Ä*helpÄ*&
+music/Command#apply(). *applyÄ*)
+music/Command#apply().(args)*argsÄ*
+music/Defined#*DefinedÄ*+
+music/Defined#`<init>`(). Ä@*<init>Ä*)
+music/Defined#command. Ä*commandÄ*$
+music/Defined#apply().*applyÄ*)
+music/Defined#apply().(args)*argsÄ*$
+music/CommandSet#*
+CommandSetÄ*.
+music/CommandSet#`<init>`(). Ä@*<init>Ä*4
+music/CommandSet#commandSet(). Ä*
+commandSetÄ*#
+music/CommandSet#add().*addÄ*0
+ music/CommandSet#add().(command)*commandÄ*)
+music/CommandSet#remove().*removeÄ*3
+#music/CommandSet#remove().(command)*commandÄ*#
+music/CommandSet#get().*getÄ* 
+music/Command.
+ *CommandÄ*'
+music/Command.cmdSet. Ä*cmdSetÄ* 
+music/Command.all().*allÄ*2
+music/Command.allHelpTexts().*allHelpTextsÄ*
+local0*cÄ*"
+music/Command.find().*findÄ*.
+music/Command.find().(command)*commandÄ*$
+music/Command.apply().*applyÄ*'
+music/Command.apply().(cmd)*cmdÄ*)
+music/Command.apply().(args)*argsÄ*
+local1 Ä*cÄ*4
+music/Command.loopUntilExit().*loopUntilExitÄ*9
+(music/Command.loopUntilExit().(nextLine)*nextLineÄ*
+local2 Ä*lineÄ*
+local3 Ä*resultÄ*
+local4 Ä*cmdÄ*
+local5 Ä*argsÄ*
+music/Delete.
+ *DeleteÄ*#
+music/Delete.apply().*applyÄ*(
+music/Delete.apply().(args)*argsÄ*
+local6 Ä*cmdÄ*
+local7 Ä*strÄ*
+local8*cÄ*
+music/Help.
+ *HelpÄ*!
+music/Help.apply().*applyÄ*&
+music/Help.apply().(args)*argsÄ*
+local9 Ä*cmdÄ*
+music/Quit.
+ *QuitÄ*!
+music/Quit.apply().*applyÄ*&
+music/Quit.apply().(args)*argsÄ*
+
+music/Def.
+ *DefÄ*!
+music/Def.name(). Ä*nameÄ*'
+music/Def.`name_=`(). Ä*name_=Ä*&
+music/Def.`name_=`().(x$1)*x$1Ä*!
+music/Def.func(). Ä*funcÄ*'
+music/Def.`func_=`(). Ä*func_=Ä*&
+music/Def.`func_=`().(x$1)*x$1Ä* 
+music/Def.apply().*applyÄ*%
+music/Def.apply().(args)*argsÄ*$
+music/Def.getName().*getNameÄ*$
+music/Def.getFunc().*getFuncÄ*
+music/Play.
+ *PlayÄ*!
+music/Play.apply().*applyÄ*&
+music/Play.apply().(args)*argsÄ*
+local10 Ä*tailÄ*
+local11 Ä*nbrÄ*
+local12 Ä*pnoÄ*
+local13 Ä*chordÄ*
+local14 Ä*nbrÄ*
+local15 Ä*	nbr_tupleÄ*
+local16 Ä*gtrÄ*
+local17 Ä*chordÄ*
+local18 Ä*nbrÄ*
+local19 Ä*	nbr_tupleÄ*
+local20 Ä*ukeÄ*
+local21 Ä*chordÄ2
+ music/2
+ music/Command#2'
+ music/Command#`<init>`().2"
+  &scala/Predef.String#2"
+2 8scala/Predef.String#2 
+ music/Command#str.2!
+, 0music/Command#help.2$
+ music/Command#apply().2*
+ music/Command#apply().(args)2 
+ scala/package.Seq#2"
+ scala/Predef.String#2"
+  &scala/Predef.String#2
+ music/Defined#2'
+ music/Defined#`<init>`().2'
+ music/Command#`<init>`().2
+ music/Command#2&
+. /scala/StringContext#s().2*
+   scala/StringContext.apply().2"
+& -music/Def.getName().2
+" %
+music/Def.2&
+V Wscala/StringContext#s().2*
+3 3scala/StringContext.apply().2"
+N Umusic/Def.getName().2
+J M
+music/Def.2$
+
+ music/Defined#command.22
+  $$scala/collection/IterableOps#tail().2"
+ music/Def.getFunc().2
+ 
+music/Def.2$
+ music/Defined#apply().2*
+ music/Defined#apply().(args)2 
+ scala/package.Seq#2"
+ "scala/Predef.String#2"
+& ,scala/Predef.String#2!
+		 music/Play.apply().2
+	
+	 music/Play.2$
+		 music/Defined#command.2
+ music/CommandSet#2*
+ music/CommandSet#`<init>`().2,
+ music/CommandSet#commandSet().2 
+ scala/package.Seq#2
+ %music/Command#2;
+, ,-scala/collection/SeqFactory.Delegate#apply().2 
+) ,scala/package.Seq.2
+- 1music/Help.2
+3 7music/Quit.2
+9 =music/Play.2
+? B
+music/Def.2
+D Jmusic/Delete.2%
+ 	music/CommandSet#add().2.
+
+  music/CommandSet#add().(command)2
+ music/Command#2
+ !scala/Unit#2,
+ music/CommandSet#commandSet().2-
+ scala/collection/SeqOps#`:+`().2,
+ music/CommandSet#commandSet().2.
+ & music/CommandSet#add().(command)2(
+ music/CommandSet#remove().21
+ #music/CommandSet#remove().(command)2
+ music/Command#2
+  $scala/Unit#2,
+ music/CommandSet#commandSet().24
+ "&scala/collection/IterableOps#filter().2,
+ music/CommandSet#commandSet().2
+% 'scala/Any#`!=`().21
+( /#music/CommandSet#remove().(command)2%
+ 	music/CommandSet#get().2 
+ scala/package.Seq#2
+ music/Command#2,
+ music/CommandSet#commandSet().2
+ music/Command.2#
+ music/Command.cmdSet.2*
+ music/CommandSet#`<init>`().2
+ music/CommandSet#2"
+ 	music/Command.all().2 
+ scala/package.Seq#2
+ music/Command#2%
+! $music/CommandSet#get().2#
+  music/Command.cmdSet.2+
+ music/Command.allHelpTexts().2"
+ scala/Predef.String#2<
+6 >.scala/collection/IterableOnceOps#mkString(+1).21
+ #scala/collection/IterableOps#map().2%
+ music/CommandSet#get().2#
+ 
+music/Command.cmdSet.2
+ local02%
+, -java/lang/String#`+`().23
+ #%scala/collection/StringOps#padTo(+1).2+
+ scala/Predef.augmentString().2 
+ music/Command#str.2
+ local02!
+0 4music/Command#help.2
+. /local02#
+!! 
+music/Command.find().2,
+!! music/Command.find().(command)2"
+!! scala/Predef.String#2
+!! #scala/Option#2
+!$! +music/Command#26
+!:! >(scala/collection/IterableOnceOps#find().2%
+!6! 9music/CommandSet#get().2#
+!/! 5music/Command.cmdSet.2
+!E! Gscala/Any#`==`().2 
+!A! Dmusic/Command#str.2,
+!H! Omusic/Command.find().(command)2$
+## music/Command.apply().2)
+## music/Command.apply().(cmd)2"
+## scala/Predef.String#2*
+## music/Command.apply().(args)2 
+## "scala/package.Seq#2"
+### )scala/Predef.String#2"
+#-# 3scala/Predef.String#26
+%% (scala/collection/IterableOnceOps#find().2%
+%% music/CommandSet#get().2#
+%% 
+music/Command.cmdSet.2
+%% scala/Any#`==`().2 
+%% music/Command#str.2)
+%%  music/Command.apply().(cmd)2#
+&& scala/Some.unapply().2
+&& scala/Some.2
+&& local12$
+&& music/Command#apply().2
+&& local12*
+&& music/Command.apply().(args)2
+'' scala/None.2&
+';' <scala/StringContext#s().2*
+'' scala/StringContext.apply().2)
+'&' )music/Command.apply().(cmd)2,
+)) music/Command.loopUntilExit().26
+)) (music/Command.loopUntilExit().(nextLine)2"
+)$) *scala/Predef.String#2
+)-) 1scala/Unit#2
+** local22&
+** scala/Function0#apply().26
+** (music/Command.loopUntilExit().(nextLine)2
+++ scala/Any#`!=`().2
+++ local22
+,
+, local320
+,#, ("scala/collection/ArrayOps#toSeq().2)
+,, scala/Predef.refArrayOps().21
+,, #scala/collection/StringOps#split().2+
+,, scala/Predef.augmentString().2
+,, local227
+-- )scala/collection/SeqFactory#unapplySeq().2 
+-- scala/package.Seq.26
+.. (scala/collection/package.`+:`.unapply().2!
+.. scala/package.`+:`.2
+.. local42
+.. local52$
+.#. #music/Command.apply().2
+.. #music/Command.2
+.$. 'local42
+.). -local52
+// scala/Any#`!=`().2
+/	/ local32'
+// "scala/Predef.println(+1).2
+/#/ )local32
+00 scala/Any#`!=`().2
+0	0 local32!
+00 music/Main.exitMsg.2
+00 music/Main.2,
+0%0 2music/Command.loopUntilExit().26
+030 ;(music/Command.loopUntilExit().(nextLine)2'
+22 scala/Predef.println(+1).2%
+22 java/lang/String#`+`().2!
+22 !music/Main.exitMsg.2
+22 music/Main.2
+44 music/Delete.2'
+44 music/Command#`<init>`().2
+44 music/Command#2#
+55 music/Delete.apply().2)
+55 music/Delete.apply().(args)2 
+55 scala/package.Seq#2"
+55 scala/Predef.String#2"
+5 5 &scala/Predef.String#2)
+5)5 -music/Delete.apply().(args)27
+66 )scala/collection/SeqFactory#unapplySeq().2 
+6	6 scala/package.Seq.2
+66 local62
+66 local72'
+6#6 *scala/Predef.println(+1).2
+6+6 .local629
+77 "+scala/collection/IterableOnceOps#foreach().2%
+77 music/CommandSet#get().2#
+77 music/Command.cmdSet.2
+77 music/Command.2
+7#7 $local82#
+== !scala/Boolean#`&&`().2#
+<< !scala/Boolean#`&&`().2#
+;; !scala/Boolean#`&&`().2#
+:: !scala/Boolean#`&&`().2#
+99 !scala/Boolean#`&&`().2#
+88 !scala/Boolean#`&&`().2(
+88 java/lang/String#equals().2
+88 local62 
+88 music/Command#str.2
+88 local82(
+828 2scala/Boolean#`unary_!`().2(
+8'8 -java/lang/String#equals().2
+8#8 &local62(
+929 2scala/Boolean#`unary_!`().2(
+9'9 -java/lang/String#equals().2
+9#9 &local62(
+:4: 4scala/Boolean#`unary_!`().2(
+:': -java/lang/String#equals().2
+:#: &local62(
+;3; 3scala/Boolean#`unary_!`().2(
+;'; -java/lang/String#equals().2
+;#; &local62(
+<2< 2scala/Boolean#`unary_!`().2(
+<'< -java/lang/String#equals().2
+<#< &local62(
+=4= 4scala/Boolean#`unary_!`().2(
+='= -java/lang/String#equals().2
+=#= &local62'
+?"? )scala/Predef.println(+1).2(
+@1@ 7music/CommandSet#remove().2#
+@*@ 0music/Command.cmdSet.2
+@"@ )music/Command.2
+@8@ 9local82
+A"A %local72&
+A;A <scala/StringContext#s().2*
+A*A *scala/StringContext.apply().2 
+A7A :music/Command#str.2
+A5A 6local82
+C#C &local72&
+C`C ascala/StringContext#s().2*
+C+C +scala/StringContext.apply().2
+C,C /local62
+FF local72&
+H3H 4scala/StringContext#s().2*
+HH scala/StringContext.apply().2)
+H/H 3music/Delete.apply().(args)2
+KK music/Help.2'
+KK music/Command#`<init>`().2
+KK music/Command#2!
+LL music/Help.apply().2'
+LL music/Help.apply().(args)2 
+LL scala/package.Seq#2"
+LL scala/Predef.String#2"
+L L &scala/Predef.String#2'
+L)L -music/Help.apply().(args)27
+MM )scala/collection/SeqFactory#unapplySeq().2 
+M	M scala/package.Seq.2+
+MM &music/Command.allHelpTexts().2
+MM music/Command.27
+NN )scala/collection/SeqFactory#unapplySeq().2 
+N	N scala/package.Seq.2
+NN local92'
+N3N <scala/Option#getOrElse().2!
+N'N *scala/Option#map().2#
+NN !music/Command.find().2
+NN music/Command.2
+N"N %local92!
+N-N 1music/Command#help.2&
+NLN Mscala/StringContext#s().2*
+N?N ?scala/StringContext.apply().2
+NIN Llocal92&
+O!O "scala/StringContext#s().2*
+OO scala/StringContext.apply().2 
+OO music/Command#str.2
+QQ music/Quit.2'
+QQ music/Command#`<init>`().2
+QQ music/Command#2!
+RR music/Quit.apply().2'
+RR music/Quit.apply().(args)2 
+RR scala/package.Seq#2"
+RR scala/Predef.String#2"
+R R &scala/Predef.String#2'
+R)R -music/Quit.apply().(args)27
+SS )scala/collection/SeqFactory#unapplySeq().2 
+S	S scala/package.Seq.2!
+SS music/Main.exitMsg.2
+SS music/Main.2&
+T1T 2scala/StringContext#s().2*
+TT scala/StringContext.apply().2'
+TT music/Quit.apply().(args)2
+VV 
+
+music/Def.2'
+VV music/Command#`<init>`().2
+VV music/Command#2
+XX 
+music/Def.name().2
+YY 
+music/Def.func().2;
+YY -scala/collection/SeqFactory.Delegate#apply().2 
+YY scala/package.Seq.2 
+ZZ music/Def.apply().2&
+ZZ music/Def.apply().(args)2 
+ZZ scala/package.Seq#2"
+ZZ scala/Predef.String#2"
+Z Z &scala/Predef.String#2&
+Z)Z -music/Def.apply().(args)27
+[[ )scala/collection/SeqFactory#unapplySeq().2 
+[	[ scala/package.Seq.2#
+\\ 
+music/Def.`name_=`().22
+\\ $scala/collection/IterableOps#head().2&
+\\ music/Def.apply().(args)2#
+]] 
+music/Def.`func_=`().22
+]] $scala/collection/IterableOps#tail().2&
+]] music/Def.apply().(args)2%
+__ music/CommandSet#add().2#
+__ music/Command.cmdSet.2
+__ music/Command.2'
+_$_ $music/Defined#`<init>`().2
+__ $music/Defined#2&
+a,a -scala/StringContext#s().2*
+aa scala/StringContext.apply().2
+aa music/Def.name().2<
+aa &.scala/collection/IterableOnceOps#mkString(+1).2
+aa music/Def.func().2"
+cc music/Def.getName().2"
+cc scala/Predef.String#2
+cc music/Def.name().2"
+dd music/Def.getFunc().2 
+dd scala/package.Seq#2"
+dd scala/Predef.String#2
+dd !music/Def.func().2
+ff music/Play.2'
+ff music/Command#`<init>`().2
+ff music/Command#2!
+gg music/Play.apply().2'
+gg music/Play.apply().(args)2 
+gg scala/package.Seq#2"
+gg scala/Predef.String#2"
+g g &scala/Predef.String#2'
+g)g -music/Play.apply().(args)27
+hh )scala/collection/SeqFactory#unapplySeq().2 
+h	h scala/package.Seq.2
+hh local102-
+h&h 6music/Synth.changeInstrument().2
+h h %music/Synth.2;
+hKh ]-music/Synth.GMInstruments.AcousticGrandPiano.2(
+h=h Jmusic/Synth.GMInstruments.2
+h7h <music/Synth.2
+ii local1121
+ii #scala/collection/IterableOps#map().22
+ii $scala/collection/IterableOps#tail().2'
+ii music/Play.apply().(args)21
+i"i '#scala/collection/StringOps#toInt().2+
+i i  scala/Predef.augmentString().2
+jj local122%
+jj music/Piano#`<init>`().2
+jj music/Piano#27
+j j %)scala/collection/IterableOnceOps#toSet().2
+jj local112
+kk local132!
+k#k &scala/Option#get().2'
+kk "music/Piano#toChordOpt().2
+kk local122'
+mm music/ChordPlayer.play().2 
+mm music/ChordPlayer.2
+mm local132&
+nn scala/StringContext#s().2*
+n
+n 
+scala/StringContext.apply().2
+nn local122
+nn local1327
+oo )scala/collection/SeqFactory#unapplySeq().2 
+o	o scala/package.Seq.2!
+pp scala/Int#`==`(+3).2/
+pp !scala/collection/SeqOps#length().22
+pp $scala/collection/IterableOps#tail().2'
+p	p music/Play.apply().(args)2-
+p&p 6music/Synth.changeInstrument().2
+p p %music/Synth.2<
+pKp ^.music/Synth.GMInstruments.AcousticGuitarSteel.2(
+p=p Jmusic/Synth.GMInstruments.2
+p7p <music/Synth.2
+qq local1421
+qq #scala/collection/IterableOps#map().22
+qq $scala/collection/IterableOps#tail().2'
+qq music/Play.apply().(args)21
+q"q '#scala/collection/StringOps#toInt().2+
+q q  scala/Predef.augmentString().2
+rr local152#
+rr scala/Tuple6.apply().2.
+rr  scala/collection/SeqOps#apply().2
+rr local142.
+r$r $ scala/collection/SeqOps#apply().2
+r!r $local142.
+r,r , scala/collection/SeqOps#apply().2
+r)r ,local142.
+r4r 4 scala/collection/SeqOps#apply().2
+r1r 4local142.
+r<r < scala/collection/SeqOps#apply().2
+r9r <local142.
+rDr D scala/collection/SeqOps#apply().2
+rAr Dlocal142
+tt local162&
+tt music/Guitar#`<init>`().2
+tt music/Guitar#2
+tt &local152
+uu local172!
+u#u &scala/Option#get().23
+uu "%music/FrettedInstrument#toChordOpt().2
+uu local162'
+ww music/ChordPlayer.play().2 
+ww music/ChordPlayer.2
+ww local172&
+xx scala/StringContext#s().2*
+x
+x 
+scala/StringContext.apply().2
+xx local162
+xx local1727
+|| )scala/collection/SeqFactory#unapplySeq().2 
+|	| scala/package.Seq.2-
+|'| 7music/Synth.changeInstrument().2
+|!| &music/Synth.2<
+|L| _.music/Synth.GMInstruments.AcousticGuitarNylon.2(
+|>| Kmusic/Synth.GMInstruments.2
+|8| =music/Synth.2
+}} local1821
+}} #scala/collection/IterableOps#map().22
+}} $scala/collection/IterableOps#tail().2'
+}} music/Play.apply().(args)21
+}"} '#scala/collection/StringOps#toInt().2+
+} }  scala/Predef.augmentString().2
+~~ local192#
+~~ scala/Tuple4.apply().2.
+~~  scala/collection/SeqOps#apply().2
+~~ local182.
+~$~ $ scala/collection/SeqOps#apply().2
+~!~ $local182.
+~,~ , scala/collection/SeqOps#apply().2
+~)~ ,local182.
+~4~ 4 scala/collection/SeqOps#apply().2
+~1~ 4local182
+
+ÄÄ local202)
+
+ÄÄ music/Ukulele#`<init>`().2
+
+ÄÄ music/Ukulele#2
+
+ÄÄ 'local192
+
+ÅÅ local212#
+
+Å#Å &scala/Option#get().25
+
+ÅÅ "%music/FrettedInstrument#toChordOpt().2
+
+ÅÅ local202)
+
+ÉÉ music/ChordPlayer.play().2"
+
+ÉÉ music/ChordPlayer.2
+
+ÉÉ local212(
+
+ÑÑ scala/StringContext#s().2,
+
+Ñ
+Ñ 
+scala/StringContext.apply().2
+
+ÑÑ local202
+
+ÑÑ local212%
+
+Ö'Ö )scala/Boolean#`&&`().2#
+
+Ö"Ö $scala/Int#`!=`(+3).21
+
+ÖÖ !!scala/collection/SeqOps#length().24
+
+ÖÖ $scala/collection/IterableOps#tail().2)
+
+ÖÖ music/Play.apply().(args)2*
+
+Ö@Ö Fjava/lang/String#equals().21
+
+Ö4Ö ?!java/lang/String#toLowerCase(+1).24
+
+Ö/Ö 3$scala/collection/IterableOps#head().2)
+
+Ö*Ö .music/Play.apply().(args)2%
+
+á-á /scala/Boolean#`&&`().2#
+
+á(á *scala/Int#`!=`(+3).21
+
+á!á '!scala/collection/SeqOps#length().24
+
+áá  $scala/collection/IterableOps#tail().2)
+
+áá music/Play.apply().(args)2*
+
+áFá Ljava/lang/String#equals().21
+
+á:á E!java/lang/String#toLowerCase(+1).24
+
+á5á 9$scala/collection/IterableOps#head().2)
+
+á0á 4music/Play.apply().(args)PZ 18F04B39211985451EAB296650623269

@@ -3,23 +3,39 @@ package music
 abstract class Command(val str: String, val help: String):
   def apply(args: Seq[String]): String
 
-class Defined extends Command(s"${Def.name}", s"Execute the function ${Def.name}"){
+class Defined extends Command(s"${Def.getName}", s"Execute the function ${Def.getName}"){
       //New function every new instance
-      val command = Def.func.tail
+      val command = Def.getFunc.tail
         def apply(args: Seq[String]): String =
-          Play(command) 
+          Play(command)
 }
 
-object Command:
-  var all: Seq[Command] = Seq(Help, Quit, Play, Def)
-  def allHelpTexts: String  =
-    Command.all.map(c => c.str.padTo(10,' ') + c.help).mkString("\n")
+//This class is to avoid the other Commands to access the object Command sequence. 
+class CommandSet:
+  private var commandSet: Seq[Command] = Seq(Help, Quit, Play, Def, Delete)
+  
+  def add(command: Command): Unit =
+    commandSet = commandSet :+ command
 
-  def find(command: String): Option[Command] = all.find(_.str == command)
+  def remove(command: Command): Unit =
+    commandSet = commandSet.filter(_ != command)
+
+  def get: Seq[Command] =
+    commandSet
+     
+
+
+object Command:
+  val cmdSet = new CommandSet
+  def all: Seq[Command] = cmdSet.get
+  def allHelpTexts: String  =
+    cmdSet.get.map(c => c.str.padTo(10,' ') + c.help).mkString("\n")
+
+  def find(command: String): Option[Command] = cmdSet.get.find(_.str == command)
 
   def apply(cmd: String, args: Seq[String]): String =
 
-    all.find(_.str == cmd) match
+    cmdSet.get.find(_.str == cmd) match
       case Some(c) => c(args)
       case None => s"Unkown command: $cmd\nType ? for help."
 
@@ -34,11 +50,27 @@ object Command:
     else 
       println("\n" + Main.exitMsg)
 
-object Delete extends Command("del", "delete command"):
+object Delete extends Command("del", "Delete command"):
   def apply(args: Seq[String]): String = args match{
-    case Seq(cmd) => 
+    case Seq(cmd) => var str = ""; println(cmd)
+        Command.cmdSet.get.foreach(c => 
+          if(cmd.equals(c.str) && !cmd.equals("!") 
+                               && !cmd.equals("?") 
+                               && !cmd.equals("del") 
+                               && !cmd.equals(":q") 
+                               && !cmd.equals("!"))
+                               && !cmd.equals("def") 
+                                then
+                                  println(true) 
+                                  Command.cmdSet.remove(c)
+                                  str = s"Deleted: ${c.str}"
+                                  else
+                                   str = s"$cmd is an essential command which cannot be deleted."
+        )
+                                            
+                      str
             //Map through all and if matching lookup sequence remove element
-    case _ => s"Choose a command to delete..."
+    case _ => s"Choose a command to delete... $args"
   }
 
 object Help extends Command("?", "print help"):
@@ -61,11 +93,12 @@ object Def extends Command("def", "Define function"):
       name = args.head //Ex. Em
       func = args.tail //Ex. ! p 64 67 71
 
-      Command.all = Command.all :+ new Defined
-      Command.all.map(c => println(c))
+      Command.cmdSet.add(new Defined)
 
       s"defined $name: ${func.mkString(" ")}"
     case _ => ""
+  def getName: String = name
+  def getFunc: Seq[String] = func
 
 object Play extends Command("!", "play chord"):
   def apply(args: Seq[String]): String = args match

@@ -10827,3 +10827,731 @@ WARNING: Unmatched cancel notification for request id 4161
 [0m2021.12.11 03:16:22 INFO  time: compiled w13_music_proj in 0.22s[0m
 [0m2021.12.11 03:16:27 INFO  compiling w13_music_proj (1 scala source)[0m
 [0m2021.12.11 03:16:27 INFO  time: compiled w13_music_proj in 0.19s[0m
+[0m2021.12.11 03:18:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 03:18:39 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 03:32:27 INFO  shutting down Metals[0m
+[0m2021.12.11 03:32:27 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.12.11 03:32:27 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.11 18:59:41 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\felix\ScalaProjects\w13_music_proj' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.11 18:59:41 INFO  time: initialize in 0.67s[0m
+[0m2021.12.11 18:59:43 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.11 18:59:43 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17863'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.7.0\protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.42.12\flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.42.12\flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.42.12\flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.42.12\flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.42.12\flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.42.12\flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.42.12\flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.42.12\flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.42.12\flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.42.12\flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.42.12\flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-formatter\0.42.12\flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-html-parser\0.42.12\flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.42.12\flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.42.12\flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.42.12\flexmark-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.6.7\liqp-0.6.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\ST4\4.0.7\ST4-4.0.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr-runtime\3.5.1\antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr\3.5.1\antlr-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.1.0-scala-1\scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.0.1\scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.0.1\scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.0.1\scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.0.1\scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.0.1\scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.0.1\tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'w13_music_proj-test'
+[0m[32m[D][0m Loading previous analysis for 'w13_music_proj' from 'C:\Users\felix\ScalaProjects\w13_music_proj\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17863...
+The server is listening for incoming connections at tcp://127.0.0.1:17863...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.11 18:59:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.11 18:59:55 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31321'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31321...
+The server is listening for incoming connections at tcp://127.0.0.1:31321...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.11 18:59:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.11 18:59:56 INFO  time: Connected to build server in 13s[0m
+[0m2021.12.11 18:59:56 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.11 18:59:56 INFO  time: Imported build in 0.3s[0m
+[0m2021.12.11 19:00:03 INFO  time: indexed workspace in 6.26s[0m
+[0m2021.12.11 19:00:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:00:07 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.12.11 19:00:15 INFO  time: compiled w13_music_proj in 10s[0m
+[0m2021.12.11 19:00:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:00:21 INFO  time: compiled w13_music_proj in 2.35s[0m
+[0m2021.12.11 19:01:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:01:03 INFO  time: compiled w13_music_proj in 2.18s[0m
+[0m2021.12.11 19:01:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:01:47 INFO  time: compiled w13_music_proj in 1.05s[0m
+[0m2021.12.11 19:02:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:08 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 19:02:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:16 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 19:02:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:21 INFO  time: compiled w13_music_proj in 91ms[0m
+[0m2021.12.11 19:02:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:23 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 19:02:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:27 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 19:02:35 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:35 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 19:02:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:51 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.11 19:02:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:02:58 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 19:03:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:03:01 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 19:03:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:03:13 INFO  time: compiled w13_music_proj in 0.19s[0m
+[0m2021.12.11 19:03:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:03:52 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 19:05:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:05:58 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 19:06:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:01 INFO  time: compiled w13_music_proj in 0.19s[0m
+[0m2021.12.11 19:06:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:03 INFO  time: compiled w13_music_proj in 0.18s[0m
+[0m2021.12.11 19:06:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:08 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:06:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:10 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 19:06:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:12 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:06:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:17 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:06:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:21 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 19:06:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:23 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 19:06:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:26 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:06:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:30 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 19:06:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:33 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 19:06:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:38 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 19:06:45 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:45 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:06:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:53 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 19:06:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:06:58 INFO  time: compiled w13_music_proj in 0.49s[0m
+[0m2021.12.11 19:07:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:07:00 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:07:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:07:02 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:07:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:07:46 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:07:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:07:52 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:07:57 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:07:57 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:08:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:00 INFO  time: compiled w13_music_proj in 0.21s[0m
+[0m2021.12.11 19:08:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:04 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 19:08:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:09 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:08:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:11 INFO  time: compiled w13_music_proj in 0.42s[0m
+[0m2021.12.11 19:08:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:14 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:08:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:08:55 INFO  time: compiled w13_music_proj in 0.46s[0m
+[0m2021.12.11 19:09:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:02 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 19:09:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:04 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 19:09:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:27 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:09:29 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:29 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 19:09:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:33 INFO  time: compiled w13_music_proj in 0.72s[0m
+[0m2021.12.11 19:09:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:38 INFO  time: compiled w13_music_proj in 0.6s[0m
+[0m2021.12.11 19:09:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:09:41 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 19:10:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:05 INFO  time: compiled w13_music_proj in 0.58s[0m
+[0m2021.12.11 19:10:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:14 INFO  time: compiled w13_music_proj in 0.5s[0m
+[0m2021.12.11 19:10:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:19 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:10:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:21 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 19:10:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:25 INFO  time: compiled w13_music_proj in 0.18s[0m
+[0m2021.12.11 19:10:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:28 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 19:10:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:33 INFO  time: compiled w13_music_proj in 0.68s[0m
+[0m2021.12.11 19:10:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:49 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 19:10:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:55 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 19:10:57 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:10:57 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 19:11:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:00 INFO  time: compiled w13_music_proj in 0.84s[0m
+[0m2021.12.11 19:11:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:03 INFO  time: compiled w13_music_proj in 0.71s[0m
+[0m2021.12.11 19:11:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:07 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 19:11:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:14 INFO  time: compiled w13_music_proj in 0.67s[0m
+[0m2021.12.11 19:11:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:16 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 19:11:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:19 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:11:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:22 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 19:11:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:25 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 19:11:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:30 INFO  time: compiled w13_music_proj in 0.43s[0m
+[0m2021.12.11 19:11:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:39 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 19:11:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:11:55 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 19:12:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:12:20 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 19:12:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:12:23 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 19:12:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:12:26 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:12:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:12:28 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 19:13:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:13:13 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:13:47 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:13:47 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 19:13:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:13:50 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:13:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:13:52 INFO  time: compiled w13_music_proj in 95ms[0m
+[0m2021.12.11 19:13:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:13:59 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 19:14:35 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:14:35 INFO  time: compiled w13_music_proj in 89ms[0m
+[0m2021.12.11 19:14:37 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:14:37 INFO  time: compiled w13_music_proj in 97ms[0m
+[0m2021.12.11 19:16:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:16:05 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 19:16:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:16:14 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 19:18:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:18:23 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 19:25:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:25:52 INFO  time: compiled w13_music_proj in 0.65s[0m
+[0m2021.12.11 19:25:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:25:56 INFO  time: compiled w13_music_proj in 0.47s[0m
+[0m2021.12.11 19:25:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:25:59 INFO  time: compiled w13_music_proj in 0.47s[0m
+[0m2021.12.11 19:26:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:26:01 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 19:26:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:26:04 INFO  time: compiled w13_music_proj in 0.51s[0m
+[0m2021.12.11 19:26:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:26:07 INFO  time: compiled w13_music_proj in 0.51s[0m
+[0m2021.12.11 19:26:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 19:26:13 INFO  time: compiled w13_music_proj in 0.47s[0m
+[0m2021.12.11 21:27:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:08 INFO  time: compiled w13_music_proj in 0.86s[0m
+Dec 11, 2021 9:27:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1475
+[0m2021.12.11 21:27:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:11 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 21:27:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:17 INFO  time: compiled w13_music_proj in 0.93s[0m
+[0m2021.12.11 21:27:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:28 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 21:27:31 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:31 INFO  time: compiled w13_music_proj in 95ms[0m
+[0m2021.12.11 21:27:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:33 INFO  time: compiled w13_music_proj in 89ms[0m
+[0m2021.12.11 21:27:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:39 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 21:27:47 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:47 INFO  time: compiled w13_music_proj in 0.2s[0m
+[0m2021.12.11 21:27:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:49 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:27:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:27:51 INFO  time: compiled w13_music_proj in 0.72s[0m
+[0m2021.12.11 21:47:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:47:10 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:47:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:47:12 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 21:47:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:47:53 INFO  time: compiled w13_music_proj in 0.38s[0m
+[0m2021.12.11 21:47:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:47:58 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 21:48:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:48:00 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:48:27 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:48:27 INFO  time: compiled w13_music_proj in 0.45s[0m
+[0m2021.12.11 21:49:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:49:26 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 21:49:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:49:30 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:49:32 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:49:32 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 21:49:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:49:52 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 21:49:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:49:55 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.11 21:50:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:03 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 21:50:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:05 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 21:50:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:13 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 21:50:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:17 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 21:50:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:19 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:50:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:22 INFO  time: compiled w13_music_proj in 0.19s[0m
+[0m2021.12.11 21:50:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:50:24 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 21:51:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:51:12 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:51:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:51:19 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:51:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:51:25 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 21:51:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:51:30 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.11 21:51:32 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:51:32 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.11 21:52:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:00 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 21:52:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:06 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 21:52:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:33 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:52:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:40 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 21:52:42 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:42 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:52:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:48 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 21:52:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:50 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 21:52:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:52:52 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 21:53:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:00 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:53:05 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:05 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 21:53:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:08 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:53:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:11 INFO  time: compiled w13_music_proj in 0.46s[0m
+[0m2021.12.11 21:53:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:13 INFO  time: compiled w13_music_proj in 0.45s[0m
+[0m2021.12.11 21:53:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:15 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:53:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:18 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:53:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:20 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:53:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:22 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:53:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:25 INFO  time: compiled w13_music_proj in 0.21s[0m
+Dec 11, 2021 9:53:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2452
+[0m2021.12.11 21:53:29 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:29 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:53:37 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:37 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:53:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:56 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 21:53:59 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:53:59 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 21:54:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:02 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 21:54:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:04 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:54:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:14 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:54:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:18 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 21:54:20 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:20 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:54:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:22 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 21:54:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:25 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 21:54:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:30 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 21:54:34 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:34 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.11 21:54:37 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:37 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.11 21:54:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:41 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:54:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:53 INFO  time: compiled w13_music_proj in 0.43s[0m
+[0m2021.12.11 21:54:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:54:56 INFO  time: compiled w13_music_proj in 0.46s[0m
+[0m2021.12.11 21:55:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:11 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.11 21:55:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:16 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:55:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:19 INFO  time: compiled w13_music_proj in 0.27s[0m
+[0m2021.12.11 21:55:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:28 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 21:55:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:39 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 21:55:47 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:55:47 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 21:56:22 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:56:22 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 21:56:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:56:26 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:56:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:56:53 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 21:56:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:56:55 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 21:57:00 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:00 INFO  time: compiled w13_music_proj in 0.35s[0m
+Dec 11, 2021 9:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2861
+[0m2021.12.11 21:57:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:03 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 21:57:07 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:07 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 21:57:09 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:09 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:57:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:12 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 21:57:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:14 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:57:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:18 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:57:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:24 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 21:57:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:30 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 21:57:32 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:32 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 21:57:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:36 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 21:57:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:41 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 21:57:45 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:45 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:57:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:48 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 21:57:52 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:52 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:57:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:55 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 21:57:58 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:57:58 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 21:58:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:01 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:58:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:04 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 21:58:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:08 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:58:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:10 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.11 21:58:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:19 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 21:58:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:21 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.11 21:58:24 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:24 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 21:58:26 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:26 INFO  time: compiled w13_music_proj in 0.43s[0m
+Dec 11, 2021 9:58:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3135
+[0m2021.12.11 21:58:31 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:31 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:58:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:33 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:58:35 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:35 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 21:58:38 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:38 INFO  time: compiled w13_music_proj in 0.3s[0m
+[0m2021.12.11 21:58:41 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:41 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 21:58:43 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:43 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:58:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:58:55 INFO  time: compiled w13_music_proj in 0.32s[0m
+[0m2021.12.11 21:59:03 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:59:03 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.11 21:59:12 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:59:12 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 21:59:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:59:16 INFO  time: compiled w13_music_proj in 0.26s[0m
+[0m2021.12.11 21:59:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:59:18 INFO  time: compiled w13_music_proj in 0.4s[0m
+[0m2021.12.11 21:59:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 21:59:28 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 22:00:01 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:00:01 INFO  time: compiled w13_music_proj in 0.45s[0m
+[0m2021.12.11 22:00:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:00:49 INFO  time: compiled w13_music_proj in 0.67s[0m
+[0m2021.12.11 22:01:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:01:23 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.11 22:01:39 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:01:39 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.11 22:02:19 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:02:19 INFO  time: compiled w13_music_proj in 0.33s[0m
+[0m2021.12.11 22:02:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:02:30 INFO  time: compiled w13_music_proj in 0.43s[0m
+[0m2021.12.11 22:04:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:04:16 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 22:09:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:09:04 INFO  time: compiled w13_music_proj in 0.36s[0m
+[0m2021.12.11 22:09:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:09:06 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.11 22:09:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:09:50 INFO  time: compiled w13_music_proj in 0.35s[0m
+[0m2021.12.11 22:09:56 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:09:56 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.11 22:10:11 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:11 INFO  time: compiled w13_music_proj in 0.23s[0m
+[0m2021.12.11 22:10:13 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:13 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 22:10:15 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:15 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 22:10:17 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:17 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 22:10:36 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:36 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 22:10:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:40 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 22:10:45 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:45 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.11 22:10:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:49 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 22:10:51 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:51 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.11 22:10:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:10:53 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 22:11:04 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:11:04 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.11 22:11:10 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:11:10 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.11 22:12:50 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:12:50 INFO  time: compiled w13_music_proj in 0.29s[0m
+[0m2021.12.11 22:22:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:22:23 INFO  time: compiled w13_music_proj in 0.31s[0m
+[0m2021.12.11 22:22:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:22:25 INFO  time: compiled w13_music_proj in 0.39s[0m
+[0m2021.12.11 22:22:40 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.11 22:22:40 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.14 14:51:55 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\felix\ScalaProjects\w13_music_proj' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.14 14:51:56 INFO  time: initialize in 0.59s[0m
+[0m2021.12.14 14:52:00 INFO  Attempting to connect to the build server...[0m
+[0m2021.12.14 14:52:01 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30872'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.12.14 14:52:06 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj.json'
+[0m[32m[D][0m Loading project from 'c:\Users\felix\ScalaProjects\w13_music_proj\.bloop\w13_music_proj-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.7.0\protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.42.12\flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.42.12\flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.42.12\flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.42.12\flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.42.12\flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.42.12\flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.42.12\flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.42.12\flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.42.12\flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.42.12\flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.42.12\flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-formatter\0.42.12\flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-html-parser\0.42.12\flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.42.12\flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.42.12\flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.42.12\flexmark-0.42.12.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.6.7\liqp-0.6.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\ST4\4.0.7\ST4-4.0.7.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr-runtime\3.5.1\antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr\3.5.1\antlr-3.5.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.1.0-scala-1\scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.0.1\scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.0.1\scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.0.1\scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.0.1\scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.0.1\scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.0.1\tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar
+[0m[32m[D][0m   => C:\Users\felix\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'w13_music_proj-test'
+[0m[32m[D][0m Loading previous analysis for 'w13_music_proj' from 'C:\Users\felix\ScalaProjects\w13_music_proj\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30872...
+The server is listening for incoming connections at tcp://127.0.0.1:30872...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.14 14:52:10 INFO  time: code lens generation in 8.6s[0m
+[0m2021.12.14 14:52:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.14 14:52:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28668'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28668...
+The server is listening for incoming connections at tcp://127.0.0.1:28668...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.14 14:52:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\felix\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.14 14:52:11 INFO  time: Connected to build server in 10s[0m
+[0m2021.12.14 14:52:11 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.14 14:52:11 INFO  time: Imported build in 0.2s[0m
+[0m2021.12.14 14:52:13 INFO  time: indexed workspace in 2.27s[0m
+[0m2021.12.14 14:52:15 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.12.14 14:53:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:53:06 INFO  time: compiled w13_music_proj in 3.89s[0m
+[0m2021.12.14 14:53:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:53:46 INFO  time: compiled w13_music_proj in 0.37s[0m
+[0m2021.12.14 14:55:46 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:55:46 INFO  time: compiled w13_music_proj in 0.25s[0m
+[0m2021.12.14 14:55:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:55:53 INFO  time: compiled w13_music_proj in 0.13s[0m
+[0m2021.12.14 14:56:02 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:02 INFO  time: compiled w13_music_proj in 0.14s[0m
+[0m2021.12.14 14:56:06 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:06 INFO  time: compiled w13_music_proj in 0.16s[0m
+[0m2021.12.14 14:56:08 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:08 INFO  time: compiled w13_music_proj in 0.11s[0m
+[0m2021.12.14 14:56:14 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:14 INFO  time: compiled w13_music_proj in 98ms[0m
+[0m2021.12.14 14:56:16 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:16 INFO  time: compiled w13_music_proj in 0.1s[0m
+[0m2021.12.14 14:56:18 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:18 INFO  time: compiled w13_music_proj in 0.15s[0m
+[0m2021.12.14 14:56:23 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:23 INFO  time: compiled w13_music_proj in 90ms[0m
+[0m2021.12.14 14:56:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:25 INFO  time: compiled w13_music_proj in 94ms[0m
+[0m2021.12.14 14:56:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:30 INFO  time: compiled w13_music_proj in 0.12s[0m
+[0m2021.12.14 14:56:33 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:33 INFO  time: compiled w13_music_proj in 0.17s[0m
+[0m2021.12.14 14:56:48 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:48 INFO  time: compiled w13_music_proj in 83ms[0m
+Dec 14, 2021 2:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+[0m2021.12.14 14:56:53 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:56:53 INFO  time: compiled w13_music_proj in 74ms[0m
+[0m2021.12.14 14:57:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:21 INFO  time: compiled w13_music_proj in 0.48s[0m
+[0m2021.12.14 14:57:21 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:23 INFO  time: compiled w13_music_proj in 1.07s[0m
+[0m2021.12.14 14:57:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:25 INFO  time: compiled w13_music_proj in 0.34s[0m
+[0m2021.12.14 14:57:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:26 INFO  time: compiled w13_music_proj in 1.09s[0m
+[0m2021.12.14 14:57:29 INFO  compiling w13_music_proj (2 scala sources)[0m
+[0m2021.12.14 14:57:29 INFO  time: compiled w13_music_proj in 0.58s[0m
+[0m2021.12.14 14:57:33 INFO  compiling w13_music_proj (2 scala sources)[0m
+[0m2021.12.14 14:57:33 INFO  time: compiled w13_music_proj in 0.42s[0m
+[0m2021.12.14 14:57:38 INFO  compiling w13_music_proj (2 scala sources)[0m
+[0m2021.12.14 14:57:38 INFO  time: compiled w13_music_proj in 0.9s[0m
+[0m2021.12.14 14:57:49 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:49 INFO  time: compiled w13_music_proj in 0.28s[0m
+[0m2021.12.14 14:57:55 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:57:55 INFO  time: compiled w13_music_proj in 0.24s[0m
+[0m2021.12.14 14:58:25 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:58:25 INFO  time: compiled w13_music_proj in 0.44s[0m
+[0m2021.12.14 14:58:28 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:58:28 INFO  time: compiled w13_music_proj in 0.44s[0m
+[0m2021.12.14 14:58:30 INFO  compiling w13_music_proj (1 scala source)[0m
+[0m2021.12.14 14:58:30 INFO  time: compiled w13_music_proj in 0.41s[0m
+[0m2021.12.14 14:58:42 INFO  compiling w13_music_proj (2 scala sources)[0m
+[0m2021.12.14 14:58:42 INFO  time: compiled w13_music_proj in 0.61s[0m
+[0m2021.12.14 15:35:12 INFO  shutting down Metals[0m
+[0m2021.12.14 15:35:12 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.14 15:35:12 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

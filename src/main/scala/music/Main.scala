@@ -8,5 +8,4 @@ object Main:
 
   def main(args: Array[String]): Unit =
     println(helloMsg)
-    Synth.playBlocking()
     Command.loopUntilExit(readLine _)

@@ -12,4 +12,5 @@ object ChordPlayer:
   def play(chord: Chord, strike: Strike = Strike(), channel: Int = 0): Unit =
     strike match 
       case Strike(v, d, s, a) => Synth.playConcurrently(chord.pitches, v, d, s, a, channel)
+  
 

@@ -1,0 +1,94 @@
+
+Ò&src/main/scala/music/ChordPlayer.scala*(
+music/ChordPlayer.
+ *ChordPlayer€*+
+music/ChordPlayer.Strike# €*Strike€*6
+$music/ChordPlayer.Strike#`<init>`(). €@*<init>€*B
+.music/ChordPlayer.Strike#`<init>`().(velocity) €*velocity€*B
+.music/ChordPlayer.Strike#`<init>`().(duration) €*duration€*>
+,music/ChordPlayer.Strike#`<init>`().(spread) €*spread€*<
++music/ChordPlayer.Strike#`<init>`().(after) €*after€*6
+"music/ChordPlayer.Strike#velocity. €*velocity€*6
+"music/ChordPlayer.Strike#duration. €*duration€*2
+ music/ChordPlayer.Strike#spread. €*spread€*0
+music/ChordPlayer.Strike#after. €*after€*-
+ music/ChordPlayer.Strike#copy().*copy€*;
+*music/ChordPlayer.Strike#copy().(velocity)*velocity€*;
+*music/ChordPlayer.Strike#copy().(duration)*duration€*7
+(music/ChordPlayer.Strike#copy().(spread)*spread€*5
+'music/ChordPlayer.Strike#copy().(after)*after€*A
+*music/ChordPlayer.Strike#copy$default$1().*copy$default$1€*A
+*music/ChordPlayer.Strike#copy$default$2().*copy$default$2€*A
+*music/ChordPlayer.Strike#copy$default$3().*copy$default$3€*A
+*music/ChordPlayer.Strike#copy$default$4().*copy$default$4€*)
+music/ChordPlayer.Strike#_1().*_1€*)
+music/ChordPlayer.Strike#_2().*_2€*)
+music/ChordPlayer.Strike#_3().*_3€*)
+music/ChordPlayer.Strike#_4().*_4€**
+music/ChordPlayer.Strike.
+ *Strike€*/
+!music/ChordPlayer.Strike.apply().*apply€*<
++music/ChordPlayer.Strike.apply().(velocity)*velocity€*<
++music/ChordPlayer.Strike.apply().(duration)*duration€*8
+)music/ChordPlayer.Strike.apply().(spread)*spread€*6
+(music/ChordPlayer.Strike.apply().(after)*after€*3
+#music/ChordPlayer.Strike.unapply().*unapply€*4
+(music/ChordPlayer.Strike.unapply().(x$1)*x$1€*5
+$music/ChordPlayer.Strike.toString().*toString€*[
+7music/ChordPlayer.Strike.$lessinit$greater$default$1().*$lessinit$greater$default$1€*[
+7music/ChordPlayer.Strike.$lessinit$greater$default$2().*$lessinit$greater$default$2€*[
+7music/ChordPlayer.Strike.$lessinit$greater$default$3().*$lessinit$greater$default$3€*[
+7music/ChordPlayer.Strike.$lessinit$greater$default$4().*$lessinit$greater$default$4€*&
+music/ChordPlayer.play().*play€*.
+ music/ChordPlayer.play().(chord)*chord€*0
+!music/ChordPlayer.play().(strike)*strike€*2
+"music/ChordPlayer.play().(channel)*channel€*
+local0 €*v€*
+local1 €*d€*
+local2 €*s€*
+local3 €*a€*:
+#music/ChordPlayer.play$default$2().*play$default$2€*:
+#music/ChordPlayer.play$default$3().*play$default$3€2
+ music/2 
+ music/ChordPlayer.2'
+ music/ChordPlayer.Strike#22
+ $music/ChordPlayer.Strike#`<init>`().2
+ 
+scala/Int#2
+ scala/Long#2
+ scala/Long#2
+ scala/Long#20
+ "music/ChordPlayer.Strike#velocity.20
+ "music/ChordPlayer.Strike#duration.2.
+ 
+ music/ChordPlayer.Strike#spread.2-
+ 	music/ChordPlayer.Strike#after.2'
+ 
+music/ChordPlayer.play().2.
+  music/ChordPlayer.play().(chord)2
+ music/Chord#2/
+ !music/ChordPlayer.play().(strike)2'
+! 'music/ChordPlayer.Strike#20
+4 ;"music/ChordPlayer.play().(channel)2
+= @
+scala/Int#2
+G Kscala/Unit#2/
+ 
+!music/ChordPlayer.play().(strike)21
+ #music/ChordPlayer.Strike.unapply().2'
+ music/ChordPlayer.Strike.2
+ local02
+ local12
+ local22
+ local32-
+' 7music/Synth.playConcurrently().2
+! &music/Synth.2"
+> Emusic/Chord#pitches.2.
+8 = music/ChordPlayer.play().(chord)2
+G Hlocal02
+J Klocal12
+M Nlocal22
+P Qlocal320
+S Z"music/ChordPlayer.play().(channel)2/
+0 0!music/ChordPlayer.Strike.apply().2'
+* 0music/ChordPlayer.Strike.PZ F120CF584E4B42D411C1D54531917D64
