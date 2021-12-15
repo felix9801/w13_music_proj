@@ -11,31 +11,31 @@ class Defined extends Command(s"${Def.getName}", s"Execute the function ${Def.ge
 }
 
 //This class is to avoid the other Commands to access the object Command sequence. 
-class CommandSet:
-  private var commandSet: Seq[Command] = Seq(Help, Quit, Play, Def, Delete)
+class CommandSeq:
+  private var commandSeq: Seq[Command] = Seq(Help, Quit, Play, Def, Delete)
   
   def add(command: Command): Unit =
-    commandSet = commandSet :+ command
+    commandSeq = commandSeq :+ command
 
   def remove(command: Command): Unit =
-    commandSet = commandSet.filter(_ != command)
+    commandSeq = commandSeq.filter(_ != command)
 
   def get: Seq[Command] =
-    commandSet
+    commandSeq
      
 
 
 object Command:
-  val cmdSet = new CommandSet
-  def all: Seq[Command] = cmdSet.get
+  val cmdSeq = new CommandSeq
+  def all: Seq[Command] = cmdSeq.get
   def allHelpTexts: String  =
-    cmdSet.get.map(c => c.str.padTo(10,' ') + c.help).mkString("\n")
+    cmdSeq.get.map(c => c.str.padTo(10,' ') + c.help).mkString("\n")
 
-  def find(command: String): Option[Command] = cmdSet.get.find(_.str == command)
+  def find(command: String): Option[Command] = cmdSeq.get.find(_.str == command)
 
   def apply(cmd: String, args: Seq[String]): String =
 
-    cmdSet.get.find(_.str == cmd) match
+    cmdSeq.get.find(_.str == cmd) match
       case Some(c) => c(args)
       case None => s"Unkown command: $cmd\nType ? for help."
 
@@ -53,7 +53,7 @@ object Command:
 object Delete extends Command("del", "Delete command"):
   def apply(args: Seq[String]): String = args match{
     case Seq(cmd) => var str = ""; println(cmd)
-        Command.cmdSet.get.foreach(c => 
+        Command.cmdSeq.get.foreach(c => 
           if(cmd.equals(c.str) && !cmd.equals("!") 
                                && !cmd.equals("?") 
                                && !cmd.equals("del") 
@@ -62,7 +62,7 @@ object Delete extends Command("del", "Delete command"):
                                && !cmd.equals("def") 
                                 then
                                   println(true) 
-                                  Command.cmdSet.remove(c)
+                                  Command.cmdSeq.remove(c)
                                   str = s"Deleted: ${c.str}"
                                   else
                                    str = s"$cmd is an essential command which cannot be deleted."
@@ -93,7 +93,7 @@ object Def extends Command("def", "Define function"):
       name = args.head //Ex. Em
       func = args.tail //Ex. ! p 64 67 71
 
-      Command.cmdSet.add(new Defined)
+      Command.cmdSeq.add(new Defined)
 
       s"defined $name: ${func.mkString(" ")}"
     case _ => ""
